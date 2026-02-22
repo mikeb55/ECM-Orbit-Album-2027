@@ -143,15 +143,26 @@ for /f "usebackq delims=" %%L in ("%GITIGNORE%") do (
       if "!wroteblock!"=="0" (
         echo.>> "%GITTMP%"
         echo %BLOCK_START%>> "%GITTMP%"
-        echo _NONALBUM_LOCAL_BACKUP/>> "%GITTMP%"
-        echo _QUARANTINE/>> "%GITTMP%"
-        echo Documents/>> "%GITTMP%"
-        echo profiles/>> "%GITTMP%"
-        echo backups/>> "%GITTMP%"
-        echo backup-20250917/>> "%GITTMP%"
-        echo Mike Songs 2025/>> "%GITTMP%"
-        echo quintet*.html>> "%GITTMP%"
-        echo %BLOCK_END%>> "%GITTMP%"
+      echo _NONALBUM_LOCAL_BACKUP/>> "%GITTMP%"
+      echo _QUARANTINE/>> "%GITTMP%"
+      echo Documents/>> "%GITTMP%"
+      echo profiles/>> "%GITTMP%"
+      echo backups/>> "%GITTMP%"
+      echo backup-20250917/>> "%GITTMP%"
+      echo Mike Songs 2025/>> "%GITTMP%"
+      echo quintet*.html>> "%GITTMP%"
+      echo .githooks/>> "%GITTMP%"
+      echo Old Fractured Motion Versions/>> "%GITTMP%"
+      echo ECM_ORBIT_REPO_REPAIR.bat>> "%GITTMP%"
+      echo FIX_ECM_REPO_KEEP_LOCAL.bat>> "%GITTMP%"
+      echo one-check.bat>> "%GITTMP%"
+      echo repo-check.bat>> "%GITTMP%"
+      echo START.bat>> "%GITTMP%"
+      echo START-log.txt>> "%GITTMP%"
+      echo V2*.sib>> "%GITTMP%"
+      echo V2*.wmv>> "%GITTMP%"
+      echo V2*.musicxml>> "%GITTMP%"
+      echo %BLOCK_END%>> "%GITTMP%"
         set "wroteblock=1"
       )
     ) else (
@@ -163,26 +174,42 @@ for /f "usebackq delims=" %%L in ("%GITIGNORE%") do (
 if "!wroteblock!"=="0" (
   echo.>> "%GITTMP%"
   echo %BLOCK_START%>> "%GITTMP%"
-  echo _NONALBUM_LOCAL_BACKUP/>> "%GITTMP%"
-  echo _QUARANTINE/>> "%GITTMP%"
-  echo Documents/>> "%GITTMP%"
-  echo profiles/>> "%GITTMP%"
-  echo backups/>> "%GITTMP%"
-  echo backup-20250917/>> "%GITTMP%"
-  echo Mike Songs 2025/>> "%GITTMP%"
-  echo quintet*.html>> "%GITTMP%"
-  echo %BLOCK_END%>> "%GITTMP%"
+      echo _NONALBUM_LOCAL_BACKUP/>> "%GITTMP%"
+      echo _QUARANTINE/>> "%GITTMP%"
+      echo Documents/>> "%GITTMP%"
+      echo profiles/>> "%GITTMP%"
+      echo backups/>> "%GITTMP%"
+      echo backup-20250917/>> "%GITTMP%"
+      echo Mike Songs 2025/>> "%GITTMP%"
+      echo quintet*.html>> "%GITTMP%"
+      echo .githooks/>> "%GITTMP%"
+      echo Old Fractured Motion Versions/>> "%GITTMP%"
+      echo ECM_ORBIT_REPO_REPAIR.bat>> "%GITTMP%"
+      echo FIX_ECM_REPO_KEEP_LOCAL.bat>> "%GITTMP%"
+      echo one-check.bat>> "%GITTMP%"
+      echo repo-check.bat>> "%GITTMP%"
+      echo START.bat>> "%GITTMP%"
+      echo START-log.txt>> "%GITTMP%"
+      echo V2*.sib>> "%GITTMP%"
+      echo V2*.wmv>> "%GITTMP%"
+      echo V2*.musicxml>> "%GITTMP%"
+      echo %BLOCK_END%>> "%GITTMP%"
 )
 
 move /Y "%GITTMP%" "%GITIGNORE%" >nul
 
 git add .gitignore >>"%LOG%" 2>&1
 
+REM Untrack root junk not in allowlist (never git add -A)
+for %%X in (ECM_ORBIT_REPO_REPAIR.bat FIX_ECM_REPO_KEEP_LOCAL.bat one-check.bat repo-check.bat START.bat START-log.txt) do git rm --cached "%%~X" >>"%LOG%" 2>&1
+git rm -r --cached .githooks >>"%LOG%" 2>&1
+git rm -r --cached "Old Fractured Motion Versions" >>"%LOG%" 2>&1
+for %%X in ("V2 5 - Fractured_Motion.sib" "V2 5 - Fractured_Motion.wmv" "V2 6 - Fractured_Motion.sib" "V2 6 - Fractured_Motion.wmv" "V2.1 - Fractured_Motion.musicxml" "V2.2 - Fractured_Motion.musicxml" "V2.3 - Fractured_Motion.musicxml" "V2.4 - Fractured_Motion.musicxml" "V2.5 - Fractured_Motion.musicxml" "V2.6 - Fractured_Motion.musicxml") do git rm --cached %%~X >>"%LOG%" 2>&1
+
 echo.
 echo --- Commit and push ---
 >>"%LOG%" echo Commit and push
 
-git add -A >>"%LOG%" 2>&1
 git status
 echo.
 

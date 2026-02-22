@@ -1,0 +1,28 @@
+===== START.bat run Sat 02/21/2026  8:18:21.64 =====
+Repo: "C:\Users\mike\Documents\Cursor AI Projects\ECM-Orbit-Album-2027\"
+Branch: "home/mike"
+C:\Program Files\Git\cmd\git.exe
+Running: git fetch origin --prune
+Checking local branch "home/mike"...
+Switching to home/mike...
+D	Documents/Cursor AI Projects/large-ensemble-assistant/ChatGPT.md
+M	Documents/Cursor AI Projects/large-ensemble-assistant/analysis/orchestration-plan-v9.md
+M	Documents/Cursor AI Projects/large-ensemble-assistant/analysis/orchestration-summary-v9.md
+M	Documents/Cursor AI Projects/large-ensemble-assistant/analysis/v10-polish-summary.md
+D	Documents/Cursor AI Projects/large-ensemble-assistant/analysis/v11-leadsheet-summaries.md
+D	Documents/Cursor AI Projects/large-ensemble-assistant/analysis/v11-major-decisions.md
+M	Documents/Cursor AI Projects/large-ensemble-assistant/analysis/v9-refinement-summary.md
+M	Documents/Cursor AI Projects/large-ensemble-assistant/config/musicxml-duration-rules.md
+M	Documents/Cursor AI Projects/large-ensemble-assistant/config/project_state.json
+D	Documents/Cursor AI Projects/large-ensemble-assistant/scores/Movement1-Excellent-Final.musicxml
+D	Documents/Cursor AI Projects/large-ensemble-assistant/scores/Movement2-Excellent.musicxml
+D	Documents/Cursor AI Projects/large-ensemble-assistant/scores/Movement3-Excellent-Final.musicxml
+D	Documents/Cursor AI Projects/large-ensemble-assistant/scores/Movement4-Excellent-Final.musicxml
+D	Documents/Cursor AI Projects/large-ensemble-assistant/scores/V2.0-Gil_Evans-Movement2-OrchestraCloud.musicxml
+D	Documents/Cursor AI Projects/large-ensemble-assistant/scores/masters-palette-leadsheet-v9.musicxml
+M	Documents/Cursor AI Projects/large-ensemble-assistant/scores/masters-palette-orchestrated-v10.musicxml
+D	Documents/Cursor AI Projects/large-ensemble-assistant/scores/masters-palette-orchestrated-v11.musicxml
+Your branch is up to date with 'origin/home/mike'.
+Already on 'home/mike'
+Running: git pull --ff-only
+Already up to date.

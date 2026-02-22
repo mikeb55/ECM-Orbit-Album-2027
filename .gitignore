@@ -3,23 +3,30 @@
 Thumbs.db
 .vscode/
 .idea/
-
 # Audio renders / bounces (keep if you want, otherwise ignore)
 *.wav
 *.mp3
 *.aiff
 *.flac
-
 # DAW / project clutter (optional)
 *.log
 *.tmp
 *.bak
-
 # Large sample/cache folders (if any appear)
 Cache/
 Temp/
 Renders/
 Exports/
-
 # If you generate PDFs locally and don't want them versioned:
 # *.pdf
+
+# ---- ECM_ORBIT_NONALBUM_IGNORE_START ----
+_NONALBUM_LOCAL_BACKUP/
+_QUARANTINE/
+Documents/
+profiles/
+backups/
+backup-20250917/
+Mike Songs 2025/
+quintet*.html
+# ---- ECM_ORBIT_NONALBUM_IGNORE_END ----

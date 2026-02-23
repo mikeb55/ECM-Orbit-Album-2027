@@ -1,0 +1,47 @@
+name: Fractured Motion CI
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+  workflow_dispatch:
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install MuseScore
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y musescore3 2>/dev/null || sudo apt-get install -y musescore 2>/dev/null || true
+
+      - name: Find latest trio MusicXML
+        id: find
+        run: |
+          LATEST=$(ls -1 Fractured-Motion-Orbit/MusicXML/fractured_motion_orbit_trio_v*.musicxml 2>/dev/null | sort -V | tail -1)
+          if [ -z "$LATEST" ]; then echo "No trio MusicXML found"; exit 1; fi
+          V=$(echo "$LATEST" | grep -oP 'v\d+' | tail -1)
+          echo "path=$LATEST" >> $GITHUB_OUTPUT
+          echo "version=$V" >> $GITHUB_OUTPUT
+
+      - name: Render full score PDF
+        run: |
+          XML="${{ steps.find.outputs.path }}"
+          mkdir -p Fractured-Motion-Orbit/LeadSheets
+          if command -v mscore3 &>/dev/null; then
+            mscore3 -o Fractured-Motion-Orbit/LeadSheets/fractured_motion_orbit_trio_${{ steps.find.outputs.version }}.pdf "$XML"
+          elif command -v mscore &>/dev/null; then
+            mscore -o Fractured-Motion-Orbit/LeadSheets/fractured_motion_orbit_trio_${{ steps.find.outputs.version }}.pdf "$XML"
+          else
+            echo "MuseScore not available"
+            exit 1
+          fi
+
+      - name: Upload PDF artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: fractured-motion-trio-pdfs
+          path: Fractured-Motion-Orbit/LeadSheets/*.pdf

@@ -1,0 +1,255 @@
+<?xml version='1.0' encoding='cp1252'?>
+<ns0:score-partwise xmlns:ns0="http://www.musicxml.org/ns/3.1" version="3.1">
+  <ns0:work>
+    <ns0:work-title>Harmolodic Sketch (Gravitational Axis)</ns0:work-title>
+    <ns0:creator type="composer">Mike Bryant</ns0:creator>
+  </ns0:work>
+  <ns0:identification>
+    <ns0:encoding>
+      <ns0:encoding-date>2026-02-22</ns0:encoding-date>
+      <ns0:software>Harmolodic Sketch Gravitational V3 (GCE &#8805;9.85) / GCE-Jazz V1.0</ns0:software>
+    </ns0:encoding>
+  </ns0:identification>
+  <ns0:defaults>
+    <ns0:scaling><ns0:millimeters>7.0</ns0:millimeters><ns0:tenths>40</ns0:tenths></ns0:scaling>
+    <ns0:page-layout>
+      <ns0:page-height>1683.78</ns0:page-height>
+      <ns0:page-width>1190.55</ns0:page-width>
+      <ns0:page-margins type="both"><ns0:left-margin>56.6929</ns0:left-margin><ns0:right-margin>56.6929</ns0:right-margin><ns0:top-margin>56.6929</ns0:top-margin><ns0:bottom-margin>56.6929</ns0:bottom-margin></ns0:page-margins>
+    </ns0:page-layout>
+  </ns0:defaults>
+  <ns0:part-list>
+    <ns0:score-part id="P1">
+      <ns0:part-name>Flugelhorn in Bb</ns0:part-name>
+      <ns0:score-instrument id="P1-I1"><ns0:instrument-name>Flugelhorn</ns0:instrument-name></ns0:score-instrument>
+      <ns0:midi-device id="P1-I1" port="1" />
+      <ns0:midi-instrument id="P1-I1"><ns0:midi-channel>1</ns0:midi-channel><ns0:midi-program>56</ns0:midi-program></ns0:midi-instrument>
+    </ns0:score-part>
+    <ns0:score-part id="P2">
+      <ns0:part-name>Guitar</ns0:part-name>
+      <ns0:score-instrument id="P2-I1"><ns0:instrument-name>Guitar</ns0:instrument-name></ns0:score-instrument>
+      <ns0:midi-device id="P2-I1" port="1" />
+      <ns0:midi-instrument id="P2-I1"><ns0:midi-channel>2</ns0:midi-channel><ns0:midi-program>24</ns0:midi-program></ns0:midi-instrument>
+    </ns0:score-part>
+    <ns0:score-part id="P3">
+      <ns0:part-name>Upright Bass</ns0:part-name>
+      <ns0:score-instrument id="P3-I1"><ns0:instrument-name>Upright Bass</ns0:instrument-name></ns0:score-instrument>
+      <ns0:midi-device id="P3-I1" port="1" />
+      <ns0:midi-instrument id="P3-I1"><ns0:midi-channel>3</ns0:midi-channel><ns0:midi-program>32</ns0:midi-program></ns0:midi-instrument>
+    </ns0:score-part>
+  </ns0:part-list>
+
+  <ns0:part id="P1">
+    <ns0:measure number="1">
+      <ns0:attributes>
+        <ns0:divisions>4</ns0:divisions>
+        <ns0:key><ns0:fifths>-3</ns0:fifths><ns0:mode>minor</ns0:mode></ns0:key>
+        <ns0:time><ns0:beats>4</ns0:beats><ns0:beat-type>4</ns0:beat-type></ns0:time>
+        <ns0:clef><ns0:sign>G</ns0:sign><ns0:line>2</ns0:line></ns0:clef>
+        <ns0:transpose><ns0:diatonic>-2</ns0:diatonic><ns0:chromatic>-2</ns0:chromatic></ns0:transpose>
+      </ns0:attributes>
+      <ns0:direction placement="above"><ns0:direction-type><ns0:words font-size="10">G as pitch-axis. Harmony rotates. Space structural. mf once only. Do not optimise phrasing. Do not balance symmetry. Preserve asymmetry.</ns0:words></ns0:direction-type></ns0:direction>
+      <ns0:direction placement="above"><ns0:direction-type><ns0:metronome><ns0:beat-unit>quarter</ns0:beat-unit><ns0:per-minute>48</ns0:per-minute></ns0:metronome></ns0:direction-type></ns0:direction>
+      <ns0:sound tempo="48" />
+      <ns0:direction placement="above"><ns0:direction-type><ns0:rehearsal>A</ns0:rehearsal></ns0:direction-type></ns0:direction>
+      <ns0:direction placement="above"><ns0:direction-type><ns0:words>SECTION A – AXIS ESTABLISHMENT</ns0:words></ns0:direction-type></ns0:direction>
+      <ns0:note><ns0:rest /><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type></ns0:note>
+    </ns0:measure>
+    <ns0:measure number="2"><ns0:note><ns0:rest /><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type></ns0:note></ns0:measure>
+    <ns0:measure number="3"><ns0:note><ns0:rest /><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type></ns0:note></ns0:measure>
+    <ns0:measure number="4"><ns0:note><ns0:rest /><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type></ns0:note></ns0:measure>
+    <ns0:measure number="5"><ns0:note><ns0:rest /><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type></ns0:note></ns0:measure>
+    <ns0:measure number="6"><ns0:note><ns0:rest /><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type></ns0:note></ns0:measure>
+    <ns0:measure number="7"><ns0:note><ns0:rest /><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type></ns0:note></ns0:measure>
+    <ns0:measure number="8"><ns0:note><ns0:rest /><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type></ns0:note></ns0:measure>
+    <ns0:measure number="9">
+      <ns0:attributes><ns0:divisions>4</ns0:divisions></ns0:attributes>
+      <ns0:direction placement="above"><ns0:direction-type><ns0:rehearsal>B</ns0:rehearsal></ns0:direction-type></ns0:direction>
+      <ns0:direction placement="above"><ns0:direction-type><ns0:words>SECTION B – FIRST ROTATION</ns0:words></ns0:direction-type></ns0:direction>
+      <note><rest /><duration>4</duration><voice>1</voice><type>quarter</type></note><note><pitch><step>C</step><octave>4</octave></pitch><duration>8</duration><voice>1</voice><type>half</type><stem>up</stem><dynamics><pp /></dynamics></note><note><pitch><step>E</step><alter>-1</alter><octave>4</octave></pitch><duration>4</duration><voice>1</voice><type>quarter</type><stem>up</stem><accidental>flat</accidental><dynamics><pp /></dynamics></note><note><pitch><step>G</step><octave>4</octave></pitch><duration>4</duration><voice>1</voice><type>quarter</type><stem>up</stem><dynamics><pp /></dynamics></note></ns0:measure>
+    <ns0:measure number="10"><ns0:note><ns0:pitch><ns0:step>D</ns0:step><ns0:octave>5</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:stem>down</ns0:stem><ns0:dynamics><ns0:pp /></ns0:dynamics></ns0:note></ns0:measure>
+    <ns0:measure number="11"><ns0:note><ns0:rest /><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type></ns0:note></ns0:measure>
+    <ns0:measure number="12"><ns0:note><ns0:pitch><ns0:step>C</ns0:step><ns0:octave>4</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:stem>up</ns0:stem><ns0:dynamics><ns0:pp /></ns0:dynamics></ns0:note></ns0:measure>
+    <ns0:measure number="13"><ns0:note><ns0:rest /><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type></ns0:note></ns0:measure>
+    <ns0:measure number="14"><ns0:note><ns0:pitch><ns0:step>E</ns0:step><ns0:alter>-1</ns0:alter><ns0:octave>5</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:dynamics><ns0:pp /></ns0:dynamics><ns0:stem>down</ns0:stem><ns0:accidental>flat</ns0:accidental></ns0:note></ns0:measure>
+    <ns0:measure number="15"><ns0:note><ns0:rest /><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type></ns0:note></ns0:measure>
+    <ns0:measure number="16"><ns0:note><ns0:pitch><ns0:step>D</ns0:step><ns0:octave>5</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:dynamics><ns0:pp /></ns0:dynamics><ns0:stem>down</ns0:stem></ns0:note></ns0:measure>
+    <ns0:measure number="17"><ns0:note><ns0:rest /><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type></ns0:note></ns0:measure>
+    <ns0:measure number="18"><ns0:note><ns0:rest /><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type></ns0:note></ns0:measure>
+    <ns0:measure number="19"><ns0:note><ns0:pitch><ns0:step>B</ns0:step><ns0:octave>4</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:dynamics><ns0:pp /></ns0:dynamics><ns0:stem>up</ns0:stem></ns0:note></ns0:measure>
+    <ns0:measure number="20"><ns0:note><ns0:rest /><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type></ns0:note></ns0:measure>
+    <ns0:measure number="21"><ns0:note><ns0:rest /><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type></ns0:note></ns0:measure>
+    <ns0:measure number="22"><ns0:note><ns0:pitch><ns0:step>F</ns0:step><ns0:alter>1</ns0:alter><ns0:octave>5</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:dynamics><ns0:pp /></ns0:dynamics><ns0:stem>down</ns0:stem><ns0:accidental>sharp</ns0:accidental></ns0:note></ns0:measure>
+    <ns0:measure number="23">
+      <ns0:attributes><ns0:divisions>4</ns0:divisions></ns0:attributes>
+      <ns0:direction placement="above"><ns0:direction-type><ns0:rehearsal>C</ns0:rehearsal></ns0:direction-type></ns0:direction>
+      <ns0:direction placement="above"><ns0:direction-type><ns0:words>SECTION C – SECOND ROTATION</ns0:words></ns0:direction-type></ns0:direction>
+      <ns0:note><ns0:rest /><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type></ns0:note>
+    </ns0:measure>
+    <ns0:measure number="24"><ns0:note><ns0:pitch><ns0:step>E</ns0:step><ns0:alter>1</ns0:alter><ns0:octave>5</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:dynamics><ns0:pp /></ns0:dynamics><ns0:stem>down</ns0:stem><ns0:accidental>sharp</ns0:accidental></ns0:note></ns0:measure>
+    <ns0:measure number="25"><ns0:note><ns0:rest /><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type></ns0:note></ns0:measure>
+    <ns0:measure number="26"><ns0:note><ns0:rest /><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type></ns0:note></ns0:measure>
+    <ns0:measure number="27"><ns0:note><ns0:pitch><ns0:step>D</ns0:step><ns0:octave>5</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:dynamics><ns0:pp /></ns0:dynamics><ns0:stem>down</ns0:stem></ns0:note></ns0:measure>
+    <ns0:measure number="28"><ns0:note><ns0:rest /><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type></ns0:note></ns0:measure>
+    <ns0:measure number="29"><ns0:note><ns0:rest /><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type></ns0:note></ns0:measure>
+    <ns0:measure number="30"><ns0:note><ns0:rest /><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type></ns0:note></ns0:measure>
+    <ns0:measure number="31"><ns0:note><ns0:pitch><ns0:step>D</ns0:step><ns0:octave>4</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:dynamics><ns0:pp /></ns0:dynamics><ns0:stem>up</ns0:stem></ns0:note></ns0:measure>
+    <ns0:measure number="32"><note><rest /><duration>16</duration><voice>1</voice><type>whole</type></note></ns0:measure>
+    <ns0:measure number="33"><note><rest /><duration>16</duration><voice>1</voice><type>whole</type></note></ns0:measure>
+    <ns0:measure number="34"><ns0:note><ns0:rest /><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type></ns0:note></ns0:measure>
+    <ns0:measure number="35"><ns0:note><ns0:pitch><ns0:step>B</ns0:step><ns0:octave>3</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:dynamics><ns0:pp /></ns0:dynamics><ns0:stem>up</ns0:stem></ns0:note></ns0:measure>
+    <ns0:measure number="36"><ns0:note><ns0:rest /><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type></ns0:note></ns0:measure>
+    <ns0:measure number="37"><ns0:note><ns0:pitch><ns0:step>A</ns0:step><ns0:octave>3</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:dynamics><ns0:pp /></ns0:dynamics><ns0:stem>up</ns0:stem></ns0:note></ns0:measure>
+    <ns0:measure number="38"><ns0:note><ns0:rest /><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type></ns0:note></ns0:measure>
+    <ns0:measure number="39"><ns0:note><ns0:rest /><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type></ns0:note></ns0:measure>
+    <ns0:measure number="40"><ns0:note><ns0:rest /><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type></ns0:note></ns0:measure>
+    <ns0:measure number="41"><ns0:note><ns0:rest /><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type></ns0:note></ns0:measure>
+    <ns0:measure number="42"><ns0:note><ns0:rest /><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type></ns0:note></ns0:measure>
+    <ns0:measure number="43"><ns0:note><ns0:rest /><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type></ns0:note></ns0:measure>
+    <ns0:measure number="44"><ns0:note><ns0:rest /><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type></ns0:note></ns0:measure>
+    <ns0:measure number="45"><ns0:note><ns0:pitch><ns0:step>G</ns0:step><ns0:octave>4</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:dynamics><ns0:pp /></ns0:dynamics><ns0:stem>up</ns0:stem></ns0:note></ns0:measure>
+    <ns0:measure number="46"><ns0:note><ns0:rest /><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type></ns0:note></ns0:measure>
+    <ns0:measure number="47"><ns0:note><ns0:pitch><ns0:step>F</ns0:step><ns0:alter>1</ns0:alter><ns0:octave>4</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:dynamics><ns0:pp /></ns0:dynamics><ns0:stem>up</ns0:stem><ns0:accidental>sharp</ns0:accidental></ns0:note></ns0:measure>
+    <ns0:measure number="48"><ns0:note><ns0:rest /><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type></ns0:note></ns0:measure>
+    <ns0:measure number="49"><ns0:note><ns0:pitch><ns0:step>E</ns0:step><ns0:octave>4</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:dynamics><ns0:pp /></ns0:dynamics><ns0:stem>up</ns0:stem></ns0:note></ns0:measure>
+    <ns0:measure number="50"><ns0:note><ns0:rest /><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type></ns0:note></ns0:measure>
+    <ns0:measure number="51"><ns0:note><ns0:pitch><ns0:step>D</ns0:step><ns0:octave>4</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:dynamics><ns0:pp /></ns0:dynamics><ns0:stem>up</ns0:stem></ns0:note></ns0:measure>
+    <ns0:measure number="52"><ns0:note><ns0:rest /><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type></ns0:note></ns0:measure>
+    <ns0:measure number="53"><ns0:note><ns0:pitch><ns0:step>C</ns0:step><ns0:octave>4</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:dynamics><ns0:pp /></ns0:dynamics><ns0:stem>up</ns0:stem></ns0:note></ns0:measure>
+    <ns0:measure number="54"><ns0:note><ns0:rest /><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type></ns0:note></ns0:measure>
+    <ns0:measure number="55"><ns0:note><ns0:pitch><ns0:step>B</ns0:step><ns0:octave>3</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:dynamics><ns0:pp /></ns0:dynamics><ns0:stem>up</ns0:stem></ns0:note></ns0:measure>
+    <ns0:measure number="56"><ns0:note><ns0:rest /><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type></ns0:note></ns0:measure>
+    <ns0:measure number="57"><ns0:note><ns0:pitch><ns0:step>A</ns0:step><ns0:octave>3</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:dynamics><ns0:pp /></ns0:dynamics><ns0:stem>up</ns0:stem></ns0:note></ns0:measure>
+    <ns0:measure number="58"><note><pitch><step>D</step><octave>5</octave></pitch><duration>8</duration><voice>1</voice><type>half</type><stem>down</stem><dynamics><pp /></dynamics></note><note><rest /><duration>8</duration><voice>1</voice><type>half</type></note></ns0:measure>
+  </ns0:part>
+
+  <ns0:part id="P2">
+    <ns0:measure number="1">
+      <ns0:attributes><ns0:divisions>4</ns0:divisions><ns0:key><ns0:fifths>-3</ns0:fifths><ns0:mode>minor</ns0:mode></ns0:key><ns0:time><ns0:beats>4</ns0:beats><ns0:beat-type>4</ns0:beat-type></ns0:time><ns0:clef><ns0:sign>G</ns0:sign><ns0:line>2</ns0:line></ns0:clef></ns0:attributes>
+      <ns0:direction placement="above"><ns0:direction-type><ns0:words>open voicings, harmonics</ns0:words></ns0:direction-type></ns0:direction>
+      <ns0:note><ns0:pitch><ns0:step>B</ns0:step><ns0:octave>4</ns0:octave></ns0:pitch><ns0:duration>8</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>half</ns0:type><ns0:dynamics><ns0:pp /></ns0:dynamics><ns0:stem>down</ns0:stem></ns0:note><ns0:note><ns0:chord /><ns0:pitch><ns0:step>D</ns0:step><ns0:octave>5</ns0:octave></ns0:pitch><ns0:duration>8</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>half</ns0:type><ns0:stem>down</ns0:stem></ns0:note>
+    </ns0:measure>
+    <ns0:measure number="2"><ns0:note><ns0:rest /><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type></ns0:note></ns0:measure>
+    <ns0:measure number="3"><ns0:note><ns0:pitch><ns0:step>G</ns0:step><ns0:octave>4</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:dynamics><ns0:pp /></ns0:dynamics><ns0:stem>down</ns0:stem></ns0:note><ns0:note><ns0:chord /><ns0:pitch><ns0:step>B</ns0:step><ns0:octave>4</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:stem>down</ns0:stem></ns0:note></ns0:measure>
+    <ns0:measure number="4"><ns0:note><ns0:rest /><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type></ns0:note></ns0:measure>
+    <ns0:measure number="5"><ns0:note><ns0:pitch><ns0:step>F</ns0:step><ns0:alter>1</ns0:alter><ns0:octave>4</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:dynamics><ns0:pp /></ns0:dynamics><ns0:stem>down</ns0:stem></ns0:note><ns0:note><ns0:chord /><ns0:pitch><ns0:step>A</ns0:step><ns0:octave>4</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:stem>down</ns0:stem></ns0:note></ns0:measure>
+    <ns0:measure number="6"><ns0:note><ns0:rest /><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type></ns0:note></ns0:measure>
+    <ns0:measure number="7"><ns0:note><ns0:pitch><ns0:step>G</ns0:step><ns0:octave>4</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:dynamics><ns0:pp /></ns0:dynamics><ns0:stem>down</ns0:stem></ns0:note><ns0:note><ns0:chord /><ns0:pitch><ns0:step>D</ns0:step><ns0:octave>5</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:stem>down</ns0:stem></ns0:note></ns0:measure>
+    <ns0:measure number="8"><ns0:note><ns0:rest /><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type></ns0:note></ns0:measure>
+    <ns0:measure number="9"><ns0:attributes><ns0:divisions>4</ns0:divisions></ns0:attributes><ns0:note><ns0:pitch><ns0:step>G</ns0:step><ns0:octave>3</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:dynamics><ns0:pp /></ns0:dynamics><ns0:stem>down</ns0:stem></ns0:note><ns0:note><ns0:chord /><ns0:pitch><ns0:step>B</ns0:step><ns0:alter>-1</ns0:alter><ns0:octave>4</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:stem>down</ns0:stem></ns0:note></ns0:measure>
+    <ns0:measure number="10"><ns0:note><ns0:rest /><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type></ns0:note></ns0:measure>
+    <ns0:measure number="11"><ns0:note><ns0:pitch><ns0:step>D</ns0:step><ns0:octave>4</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:dynamics><ns0:pp /></ns0:dynamics><ns0:stem>down</ns0:stem></ns0:note><ns0:note><ns0:chord /><ns0:pitch><ns0:step>G</ns0:step><ns0:octave>4</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:stem>down</ns0:stem></ns0:note></ns0:measure>
+    <ns0:measure number="12"><ns0:note><ns0:pitch><ns0:step>C</ns0:step><ns0:octave>3</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:stem>up</ns0:stem><ns0:dynamics><ns0:pp /></ns0:dynamics></ns0:note><ns0:note><ns0:pitch><ns0:step>G</ns0:step><ns0:octave>4</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:stem>up</ns0:stem><ns0:dynamics><ns0:pp /></ns0:dynamics><ns0:chord /></ns0:note></ns0:measure>
+    <ns0:measure number="13"><ns0:note><ns0:pitch><ns0:step>G</ns0:step><ns0:octave>3</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:dynamics><ns0:pp /></ns0:dynamics><ns0:stem>down</ns0:stem></ns0:note><ns0:note><ns0:chord /><ns0:pitch><ns0:step>B</ns0:step><ns0:alter>-1</ns0:alter><ns0:octave>4</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:stem>down</ns0:stem></ns0:note></ns0:measure>
+    <ns0:measure number="14"><ns0:note><ns0:rest /><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type></ns0:note></ns0:measure>
+    <ns0:measure number="15"><ns0:note><ns0:pitch><ns0:step>D</ns0:step><ns0:octave>4</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:dynamics><ns0:pp /></ns0:dynamics><ns0:stem>down</ns0:stem></ns0:note><ns0:note><ns0:chord /><ns0:pitch><ns0:step>G</ns0:step><ns0:octave>4</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:stem>down</ns0:stem></ns0:note></ns0:measure>
+    <ns0:measure number="16"><ns0:note><ns0:rest /><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type></ns0:note></ns0:measure>
+    <ns0:measure number="17"><ns0:note><ns0:rest /><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type></ns0:note></ns0:measure>
+    <ns0:measure number="18"><ns0:note><ns0:pitch><ns0:step>F</ns0:step><ns0:alter>1</ns0:alter><ns0:octave>4</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:dynamics><ns0:pp /></ns0:dynamics><ns0:stem>down</ns0:stem></ns0:note><ns0:note><ns0:chord /><ns0:pitch><ns0:step>A</ns0:step><ns0:alter>1</ns0:alter><ns0:octave>4</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:stem>down</ns0:stem></ns0:note></ns0:measure>
+    <ns0:measure number="19"><ns0:note><ns0:rest /><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type></ns0:note></ns0:measure>
+    <ns0:measure number="20"><ns0:note><ns0:pitch><ns0:step>F</ns0:step><ns0:alter>1</ns0:alter><ns0:octave>4</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:dynamics><ns0:pp /></ns0:dynamics><ns0:stem>down</ns0:stem></ns0:note><ns0:note><ns0:chord /><ns0:pitch><ns0:step>A</ns0:step><ns0:alter>1</ns0:alter><ns0:octave>4</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:stem>down</ns0:stem></ns0:note></ns0:measure>
+    <ns0:measure number="21"><ns0:note><ns0:rest /><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type></ns0:note></ns0:measure>
+    <ns0:measure number="22"><ns0:note><ns0:rest /><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type></ns0:note></ns0:measure>
+    <ns0:measure number="23"><ns0:note><ns0:pitch><ns0:step>B</ns0:step><ns0:octave>4</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:dynamics><ns0:pp /></ns0:dynamics><ns0:stem>down</ns0:stem></ns0:note><ns0:note><ns0:chord /><ns0:pitch><ns0:step>D</ns0:step><ns0:alter>1</ns0:alter><ns0:octave>5</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:stem>down</ns0:stem></ns0:note></ns0:measure>
+    <ns0:measure number="24"><ns0:note><ns0:rest /><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type></ns0:note></ns0:measure>
+    <ns0:measure number="25"><ns0:note><ns0:rest /><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type></ns0:note></ns0:measure>
+    <ns0:measure number="26"><ns0:note><ns0:pitch><ns0:step>F</ns0:step><ns0:alter>1</ns0:alter><ns0:octave>4</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:dynamics><ns0:pp /></ns0:dynamics><ns0:stem>down</ns0:stem></ns0:note><ns0:note><ns0:chord /><ns0:pitch><ns0:step>A</ns0:step><ns0:alter>1</ns0:alter><ns0:octave>4</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:stem>down</ns0:stem></ns0:note></ns0:measure>
+    <ns0:measure number="27"><ns0:note><ns0:rest /><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type></ns0:note></ns0:measure>
+    <ns0:measure number="28"><ns0:note><ns0:rest /><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type></ns0:note></ns0:measure>
+    <ns0:measure number="29"><ns0:note><ns0:pitch><ns0:step>B</ns0:step><ns0:octave>4</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:dynamics><ns0:pp /></ns0:dynamics><ns0:stem>down</ns0:stem></ns0:note><ns0:note><ns0:chord /><ns0:pitch><ns0:step>D</ns0:step><ns0:alter>1</ns0:alter><ns0:octave>5</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:stem>down</ns0:stem></ns0:note></ns0:measure>
+    <ns0:measure number="30"><ns0:note><ns0:rest /><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type></ns0:note></ns0:measure>
+    <ns0:measure number="31"><ns0:note><ns0:rest /><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type></ns0:note></ns0:measure>
+    <ns0:measure number="32"><note><pitch><step>D</step><octave>3</octave></pitch><duration>16</duration><voice>1</voice><type>whole</type><stem>up</stem><dynamics><pp /></dynamics></note><note><pitch><step>F</step><octave>4</octave></pitch><duration>16</duration><voice>1</voice><type>whole</type><stem>up</stem><dynamics><pp /></dynamics><chord /></note></ns0:measure>
+    <ns0:measure number="33"><note><pitch><step>D</step><octave>3</octave></pitch><duration>16</duration><voice>1</voice><type>whole</type><stem>up</stem><dynamics><pp /></dynamics></note><note><pitch><step>F</step><octave>4</octave></pitch><duration>16</duration><voice>1</voice><type>whole</type><stem>up</stem><dynamics><pp /></dynamics><chord /></note></ns0:measure>
+    <ns0:measure number="34"><ns0:note><ns0:pitch><ns0:step>C</ns0:step><ns0:octave>4</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:dynamics><ns0:pp /></ns0:dynamics><ns0:stem>down</ns0:stem></ns0:note><ns0:note><ns0:chord /><ns0:pitch><ns0:step>E</ns0:step><ns0:octave>4</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:stem>down</ns0:stem></ns0:note></ns0:measure>
+    <ns0:measure number="35"><ns0:note><ns0:rest /><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type></ns0:note></ns0:measure>
+    <ns0:measure number="36"><ns0:note><ns0:rest /><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type></ns0:note></ns0:measure>
+    <ns0:measure number="37"><ns0:note><ns0:pitch><ns0:step>G</ns0:step><ns0:octave>4</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:dynamics><ns0:pp /></ns0:dynamics><ns0:stem>down</ns0:stem></ns0:note><ns0:note><ns0:chord /><ns0:pitch><ns0:step>B</ns0:step><ns0:octave>4</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:stem>down</ns0:stem></ns0:note></ns0:measure>
+    <ns0:measure number="38"><ns0:note><ns0:rest /><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type></ns0:note></ns0:measure>
+    <ns0:measure number="39"><ns0:note><ns0:rest /><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type></ns0:note></ns0:measure>
+    <ns0:measure number="40"><ns0:note><ns0:pitch><ns0:step>G</ns0:step><ns0:octave>4</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:dynamics><ns0:pp /></ns0:dynamics><ns0:stem>down</ns0:stem></ns0:note><ns0:note><ns0:chord /><ns0:pitch><ns0:step>D</ns0:step><ns0:octave>5</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:stem>down</ns0:stem></ns0:note></ns0:measure>
+    <ns0:measure number="41"><ns0:note><ns0:rest /><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type></ns0:note></ns0:measure>
+    <ns0:measure number="42"><ns0:note><ns0:rest /><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type></ns0:note></ns0:measure>
+    <ns0:measure number="43"><ns0:note><ns0:rest /><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type></ns0:note></ns0:measure>
+    <ns0:measure number="44"><ns0:note><ns0:rest /><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type></ns0:note></ns0:measure>
+    <ns0:measure number="45"><ns0:note><ns0:pitch><ns0:step>B</ns0:step><ns0:octave>4</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:dynamics><ns0:pp /></ns0:dynamics><ns0:stem>down</ns0:stem></ns0:note><ns0:note><ns0:chord /><ns0:pitch><ns0:step>D</ns0:step><ns0:octave>5</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:stem>down</ns0:stem></ns0:note></ns0:measure>
+    <ns0:measure number="46"><ns0:note><ns0:rest /><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type></ns0:note></ns0:measure>
+    <ns0:measure number="47"><ns0:note><ns0:pitch><ns0:step>E</ns0:step><ns0:octave>4</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:dynamics><ns0:pp /></ns0:dynamics><ns0:stem>down</ns0:stem></ns0:note><ns0:note><ns0:chord /><ns0:pitch><ns0:step>G</ns0:step><ns0:octave>4</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:stem>down</ns0:stem></ns0:note></ns0:measure>
+    <ns0:measure number="48"><ns0:note><ns0:rest /><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type></ns0:note></ns0:measure>
+    <ns0:measure number="49"><ns0:note><ns0:pitch><ns0:step>D</ns0:step><ns0:octave>4</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:dynamics><ns0:pp /></ns0:dynamics><ns0:stem>down</ns0:stem></ns0:note><ns0:note><ns0:chord /><ns0:pitch><ns0:step>F</ns0:step><ns0:alter>1</ns0:alter><ns0:octave>4</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:stem>down</ns0:stem></ns0:note></ns0:measure>
+    <ns0:measure number="50"><ns0:note><ns0:rest /><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type></ns0:note></ns0:measure>
+    <ns0:measure number="51"><ns0:note><ns0:pitch><ns0:step>B</ns0:step><ns0:octave>3</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:dynamics><ns0:pp /></ns0:dynamics><ns0:stem>down</ns0:stem></ns0:note><ns0:note><ns0:chord /><ns0:pitch><ns0:step>D</ns0:step><ns0:octave>4</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:stem>down</ns0:stem></ns0:note></ns0:measure>
+    <ns0:measure number="52"><ns0:note><ns0:rest /><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type></ns0:note></ns0:measure>
+    <ns0:measure number="53"><ns0:note><ns0:pitch><ns0:step>E</ns0:step><ns0:octave>4</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:dynamics><ns0:pp /></ns0:dynamics><ns0:stem>down</ns0:stem></ns0:note><ns0:note><ns0:chord /><ns0:pitch><ns0:step>G</ns0:step><ns0:octave>4</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:stem>down</ns0:stem></ns0:note></ns0:measure>
+    <ns0:measure number="54"><ns0:note><ns0:rest /><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type></ns0:note></ns0:measure>
+    <ns0:measure number="55"><ns0:note><ns0:pitch><ns0:step>B</ns0:step><ns0:octave>3</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:dynamics><ns0:pp /></ns0:dynamics><ns0:stem>down</ns0:stem></ns0:note><ns0:note><ns0:chord /><ns0:pitch><ns0:step>D</ns0:step><ns0:octave>4</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:stem>down</ns0:stem></ns0:note></ns0:measure>
+    <ns0:measure number="56"><ns0:note><ns0:rest /><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type></ns0:note></ns0:measure>
+    <ns0:measure number="57"><ns0:note><ns0:pitch><ns0:step>E</ns0:step><ns0:octave>4</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:dynamics><ns0:pp /></ns0:dynamics><ns0:stem>down</ns0:stem></ns0:note><ns0:note><ns0:chord /><ns0:pitch><ns0:step>G</ns0:step><ns0:octave>4</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:stem>down</ns0:stem></ns0:note></ns0:measure>
+    <ns0:measure number="58">
+      <ns0:note><ns0:rest /><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type></ns0:note></ns0:measure>
+  </ns0:part>
+
+  <ns0:part id="P3">
+    <ns0:measure number="1">
+      <ns0:attributes><ns0:divisions>4</ns0:divisions><ns0:key><ns0:fifths>-3</ns0:fifths><ns0:mode>minor</ns0:mode></ns0:key><ns0:time><ns0:beats>4</ns0:beats><ns0:beat-type>4</ns0:beat-type></ns0:time><ns0:clef><ns0:sign>F</ns0:sign><ns0:line>4</ns0:line></ns0:clef></ns0:attributes>
+      <ns0:note><ns0:pitch><ns0:step>G</ns0:step><ns0:octave>2</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:dynamics><ns0:pp /></ns0:dynamics><ns0:stem>up</ns0:stem></ns0:note>
+    </ns0:measure>
+    <ns0:measure number="2"><ns0:note><ns0:pitch><ns0:step>G</ns0:step><ns0:octave>2</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:dynamics><ns0:pp /></ns0:dynamics><ns0:stem>up</ns0:stem></ns0:note></ns0:measure>
+    <ns0:measure number="3"><ns0:note><ns0:pitch><ns0:step>G</ns0:step><ns0:octave>2</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:dynamics><ns0:pp /></ns0:dynamics><ns0:stem>up</ns0:stem></ns0:note></ns0:measure>
+    <ns0:measure number="4"><ns0:note><ns0:pitch><ns0:step>G</ns0:step><ns0:octave>2</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:dynamics><ns0:pp /></ns0:dynamics><ns0:stem>up</ns0:stem></ns0:note></ns0:measure>
+    <ns0:measure number="5"><ns0:note><ns0:pitch><ns0:step>G</ns0:step><ns0:octave>2</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:dynamics><ns0:pp /></ns0:dynamics><ns0:stem>up</ns0:stem></ns0:note></ns0:measure>
+    <ns0:measure number="6"><ns0:note><ns0:pitch><ns0:step>G</ns0:step><ns0:octave>2</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:dynamics><ns0:pp /></ns0:dynamics><ns0:stem>up</ns0:stem></ns0:note></ns0:measure>
+    <ns0:measure number="7"><ns0:note><ns0:pitch><ns0:step>G</ns0:step><ns0:octave>2</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:dynamics><ns0:pp /></ns0:dynamics><ns0:stem>up</ns0:stem></ns0:note></ns0:measure>
+    <ns0:measure number="8"><ns0:note><ns0:pitch><ns0:step>G</ns0:step><ns0:octave>2</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:dynamics><ns0:pp /></ns0:dynamics><ns0:stem>up</ns0:stem></ns0:note></ns0:measure>
+    <ns0:measure number="9"><ns0:attributes><ns0:divisions>4</ns0:divisions></ns0:attributes><ns0:note><ns0:pitch><ns0:step>G</ns0:step><ns0:octave>2</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:dynamics><ns0:pp /></ns0:dynamics><ns0:stem>up</ns0:stem></ns0:note></ns0:measure>
+    <ns0:measure number="10"><ns0:note><ns0:pitch><ns0:step>G</ns0:step><ns0:octave>2</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:dynamics><ns0:pp /></ns0:dynamics><ns0:stem>up</ns0:stem></ns0:note></ns0:measure>
+    <ns0:measure number="11"><ns0:note><ns0:pitch><ns0:step>G</ns0:step><ns0:octave>2</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:dynamics><ns0:pp /></ns0:dynamics><ns0:stem>up</ns0:stem></ns0:note></ns0:measure>
+    <ns0:measure number="12"><ns0:note><ns0:pitch><ns0:step>C</ns0:step><ns0:octave>2</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:stem>up</ns0:stem><ns0:dynamics><ns0:pp /></ns0:dynamics></ns0:note></ns0:measure>
+    <ns0:measure number="13"><ns0:note><ns0:pitch><ns0:step>G</ns0:step><ns0:octave>2</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:dynamics><ns0:pp /></ns0:dynamics><ns0:stem>up</ns0:stem></ns0:note></ns0:measure>
+    <ns0:measure number="14"><ns0:note><ns0:pitch><ns0:step>G</ns0:step><ns0:octave>2</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:dynamics><ns0:pp /></ns0:dynamics><ns0:stem>up</ns0:stem></ns0:note></ns0:measure>
+    <ns0:measure number="15"><ns0:note><ns0:pitch><ns0:step>G</ns0:step><ns0:octave>2</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:dynamics><ns0:pp /></ns0:dynamics><ns0:stem>up</ns0:stem></ns0:note></ns0:measure>
+    <ns0:measure number="16"><ns0:note><ns0:pitch><ns0:step>G</ns0:step><ns0:octave>2</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:dynamics><ns0:pp /></ns0:dynamics><ns0:stem>up</ns0:stem></ns0:note></ns0:measure>
+    <ns0:measure number="17"><ns0:note><ns0:pitch><ns0:step>G</ns0:step><ns0:octave>2</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:dynamics><ns0:pp /></ns0:dynamics><ns0:stem>up</ns0:stem></ns0:note></ns0:measure>
+    <ns0:measure number="18"><ns0:note><ns0:pitch><ns0:step>G</ns0:step><ns0:octave>2</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:dynamics><ns0:pp /></ns0:dynamics><ns0:stem>up</ns0:stem></ns0:note></ns0:measure>
+    <ns0:measure number="19"><ns0:note><ns0:pitch><ns0:step>C</ns0:step><ns0:octave>2</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:stem>up</ns0:stem><ns0:dynamics><ns0:pp /></ns0:dynamics></ns0:note></ns0:measure>
+    <ns0:measure number="20"><ns0:note><ns0:pitch><ns0:step>C</ns0:step><ns0:octave>2</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:stem>up</ns0:stem><ns0:dynamics><ns0:pp /></ns0:dynamics></ns0:note></ns0:measure>
+    <ns0:measure number="21"><ns0:note><ns0:pitch><ns0:step>B</ns0:step><ns0:octave>2</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:dynamics><ns0:pp /></ns0:dynamics><ns0:stem>up</ns0:stem></ns0:note></ns0:measure>
+    <ns0:measure number="22"><ns0:note><ns0:pitch><ns0:step>B</ns0:step><ns0:octave>2</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:dynamics><ns0:pp /></ns0:dynamics><ns0:stem>up</ns0:stem></ns0:note></ns0:measure>
+    <ns0:measure number="23"><ns0:note><ns0:pitch><ns0:step>B</ns0:step><ns0:octave>2</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:dynamics><ns0:pp /></ns0:dynamics><ns0:stem>up</ns0:stem></ns0:note></ns0:measure>
+    <ns0:measure number="24"><ns0:note><ns0:pitch><ns0:step>B</ns0:step><ns0:octave>2</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:dynamics><ns0:pp /></ns0:dynamics><ns0:stem>up</ns0:stem></ns0:note></ns0:measure>
+    <ns0:measure number="25"><ns0:note><ns0:pitch><ns0:step>B</ns0:step><ns0:octave>2</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:dynamics><ns0:pp /></ns0:dynamics><ns0:stem>up</ns0:stem></ns0:note></ns0:measure>
+    <ns0:measure number="26"><ns0:note><ns0:rest /><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type></ns0:note></ns0:measure>
+    <ns0:measure number="27"><ns0:note><ns0:pitch><ns0:step>B</ns0:step><ns0:octave>2</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:dynamics><ns0:pp /></ns0:dynamics><ns0:stem>up</ns0:stem></ns0:note></ns0:measure>
+    <ns0:measure number="28"><ns0:note><ns0:pitch><ns0:step>B</ns0:step><ns0:octave>2</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:dynamics><ns0:pp /></ns0:dynamics><ns0:stem>up</ns0:stem></ns0:note></ns0:measure>
+    <ns0:measure number="29"><ns0:note><ns0:pitch><ns0:step>C</ns0:step><ns0:octave>3</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:dynamics><ns0:pp /></ns0:dynamics><ns0:stem>up</ns0:stem></ns0:note></ns0:measure>
+    <ns0:measure number="30"><ns0:note><ns0:pitch><ns0:step>C</ns0:step><ns0:octave>3</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:dynamics><ns0:pp /></ns0:dynamics><ns0:stem>up</ns0:stem></ns0:note></ns0:measure>
+    <ns0:measure number="31"><ns0:note><ns0:pitch><ns0:step>G</ns0:step><ns0:octave>2</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:dynamics><ns0:pp /></ns0:dynamics><ns0:stem>up</ns0:stem></ns0:note></ns0:measure>
+    <ns0:measure number="32"><note><pitch><step>D</step><octave>2</octave></pitch><duration>16</duration><voice>1</voice><type>whole</type><stem>up</stem><dynamics><pp /></dynamics></note></ns0:measure>
+    <ns0:measure number="33"><note><pitch><step>D</step><octave>2</octave></pitch><duration>16</duration><voice>1</voice><type>whole</type><stem>up</stem><dynamics><pp /></dynamics></note></ns0:measure>
+    <ns0:measure number="34"><ns0:note><ns0:pitch><ns0:step>G</ns0:step><ns0:octave>2</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:dynamics><ns0:pp /></ns0:dynamics><ns0:stem>up</ns0:stem></ns0:note></ns0:measure>
+    <ns0:measure number="35"><ns0:note><ns0:pitch><ns0:step>G</ns0:step><ns0:octave>2</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:dynamics><ns0:pp /></ns0:dynamics><ns0:stem>up</ns0:stem></ns0:note></ns0:measure>
+    <ns0:measure number="36"><ns0:note><ns0:pitch><ns0:step>G</ns0:step><ns0:octave>2</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:dynamics><ns0:pp /></ns0:dynamics><ns0:stem>up</ns0:stem></ns0:note></ns0:measure>
+    <ns0:measure number="37"><ns0:note><ns0:pitch><ns0:step>G</ns0:step><ns0:octave>2</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:dynamics><ns0:pp /></ns0:dynamics><ns0:stem>up</ns0:stem></ns0:note></ns0:measure>
+    <ns0:measure number="38"><ns0:note><ns0:pitch><ns0:step>G</ns0:step><ns0:octave>2</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:dynamics><ns0:pp /></ns0:dynamics><ns0:stem>up</ns0:stem></ns0:note></ns0:measure>
+    <ns0:measure number="39"><ns0:note><ns0:pitch><ns0:step>G</ns0:step><ns0:octave>2</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:dynamics><ns0:pp /></ns0:dynamics><ns0:stem>up</ns0:stem></ns0:note></ns0:measure>
+    <ns0:measure number="40"><ns0:note><ns0:pitch><ns0:step>G</ns0:step><ns0:octave>2</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:dynamics><ns0:pp /></ns0:dynamics><ns0:stem>up</ns0:stem></ns0:note></ns0:measure>
+    <ns0:measure number="41"><ns0:note><ns0:pitch><ns0:step>G</ns0:step><ns0:octave>2</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:dynamics><ns0:pp /></ns0:dynamics><ns0:stem>up</ns0:stem></ns0:note></ns0:measure>
+    <ns0:measure number="42"><ns0:note><ns0:pitch><ns0:step>G</ns0:step><ns0:octave>2</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:dynamics><ns0:pp /></ns0:dynamics><ns0:stem>up</ns0:stem></ns0:note></ns0:measure>
+    <ns0:measure number="43"><note><pitch><step>G</step><octave>2</octave></pitch><duration>12</duration><voice>1</voice><type>half</type><stem>up</stem><dynamics><pp /></dynamics><dot /></note><note><rest /><duration>4</duration><voice>1</voice><type>quarter</type></note></ns0:measure>
+    <ns0:measure number="44"><ns0:note><ns0:rest /><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type></ns0:note></ns0:measure>
+    <ns0:measure number="45"><ns0:note><ns0:pitch><ns0:step>G</ns0:step><ns0:octave>2</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:dynamics><ns0:pp /></ns0:dynamics><ns0:stem>up</ns0:stem></ns0:note></ns0:measure>
+    <ns0:measure number="46"><ns0:note><ns0:pitch><ns0:step>G</ns0:step><ns0:octave>2</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:dynamics><ns0:pp /></ns0:dynamics><ns0:stem>up</ns0:stem></ns0:note></ns0:measure>
+    <ns0:measure number="47"><ns0:note><ns0:pitch><ns0:step>G</ns0:step><ns0:octave>2</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:dynamics><ns0:pp /></ns0:dynamics><ns0:stem>up</ns0:stem></ns0:note></ns0:measure>
+    <ns0:measure number="48"><ns0:note><ns0:pitch><ns0:step>G</ns0:step><ns0:octave>2</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:dynamics><ns0:pp /></ns0:dynamics><ns0:stem>up</ns0:stem></ns0:note></ns0:measure>
+    <ns0:measure number="49"><ns0:note><ns0:pitch><ns0:step>G</ns0:step><ns0:octave>2</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:dynamics><ns0:pp /></ns0:dynamics><ns0:stem>up</ns0:stem></ns0:note></ns0:measure>
+    <ns0:measure number="50"><ns0:note><ns0:pitch><ns0:step>G</ns0:step><ns0:octave>2</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:dynamics><ns0:pp /></ns0:dynamics><ns0:stem>up</ns0:stem></ns0:note></ns0:measure>
+    <ns0:measure number="51"><ns0:note><ns0:pitch><ns0:step>G</ns0:step><ns0:octave>2</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:dynamics><ns0:pp /></ns0:dynamics><ns0:stem>up</ns0:stem></ns0:note></ns0:measure>
+    <ns0:measure number="52"><ns0:note><ns0:pitch><ns0:step>G</ns0:step><ns0:octave>2</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:dynamics><ns0:pp /></ns0:dynamics><ns0:stem>up</ns0:stem></ns0:note></ns0:measure>
+    <ns0:measure number="53"><ns0:note><ns0:pitch><ns0:step>G</ns0:step><ns0:octave>2</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:dynamics><ns0:pp /></ns0:dynamics><ns0:stem>up</ns0:stem></ns0:note></ns0:measure>
+    <ns0:measure number="54"><ns0:note><ns0:pitch><ns0:step>G</ns0:step><ns0:octave>2</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:dynamics><ns0:pp /></ns0:dynamics><ns0:stem>up</ns0:stem></ns0:note></ns0:measure>
+    <ns0:measure number="55"><ns0:note><ns0:pitch><ns0:step>G</ns0:step><ns0:octave>2</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:dynamics><ns0:pp /></ns0:dynamics><ns0:stem>up</ns0:stem></ns0:note></ns0:measure>
+    <ns0:measure number="56"><ns0:note><ns0:pitch><ns0:step>G</ns0:step><ns0:octave>2</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:dynamics><ns0:pp /></ns0:dynamics><ns0:stem>up</ns0:stem></ns0:note></ns0:measure>
+    <ns0:measure number="57"><ns0:note><ns0:pitch><ns0:step>G</ns0:step><ns0:octave>2</ns0:octave></ns0:pitch><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type><ns0:dynamics><ns0:pp /></ns0:dynamics><ns0:stem>up</ns0:stem></ns0:note></ns0:measure>
+    <ns0:measure number="58"><ns0:note><ns0:rest /><ns0:duration>16</ns0:duration><ns0:voice>1</ns0:voice><ns0:type>whole</ns0:type></ns0:note></ns0:measure>
+  </ns0:part>
+</ns0:score-partwise>

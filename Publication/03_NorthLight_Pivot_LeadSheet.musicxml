@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<score-partwise version="3.1" xmlns="http://www.musicxml.org/ns/3.1">
+  <work><work-title>NorthLight-Pivot</work-title><creator type="composer">Mike Bryant</creator></work>
+  <identification><encoding><encoding-date>2026-02-23</encoding-date><software>ECM Orbit Publication</software></encoding></identification>
+  <defaults><scaling><millimeters>7.0</millimeters><tenths>40</tenths></scaling></defaults>
+  <part-list><score-part id="P1"><part-name>Melody (concert) - Guitar/Flugelhorn/Bass trio</part-name></score-part></part-list>
+  <part id="P1">
+    <measure number="1">
+      <attributes><divisions>4</divisions><key><fifths>4</fifths><mode>major</mode></key><time><beats>4</beats><beat-type>4</beat-type></time><clef><sign>G</sign><line>2</line></clef></attributes>
+      <direction placement="above"><direction-type><words>E Lydian. Vertical. Very still.</words></direction-type></direction>
+      <direction placement="above"><direction-type><metronome><beat-unit>quarter</beat-unit><per-minute>46</per-minute></metronome></direction-type><sound tempo="46"/></direction>
+      <direction placement="above"><direction-type><rehearsal>A</rehearsal></direction-type></direction>
+      <direction placement="above"><direction-type><words>SECTION A - AIR</words></direction-type></direction>
+      <harmony placement="above"><root><root-step>E</root-step></root><kind text="maj7">major-seventh</kind></harmony>
+      <note><pitch><step>F</step><alter>1</alter><octave>5</octave></pitch><duration>8</duration><voice>1</voice><type>half</type><dynamics><pp/></dynamics><stem>down</stem><accidental>sharp</accidental></note>
+      <note><pitch><step>E</step><alter>1</alter><octave>5</octave></pitch><duration>4</duration><voice>1</voice><type>quarter</type><stem>down</stem><accidental>sharp</accidental></note>
+      <note><pitch><step>D</step><alter>1</alter><octave>5</octave></pitch><duration>4</duration><voice>1</voice><type>quarter</type><stem>down</stem><accidental>sharp</accidental></note>
+    </measure>
+    <measure number="2">
+      <harmony placement="above"><root><root-step>E</root-step></root><kind text="maj7">major-seventh</kind></harmony>
+      <note><pitch><step>C</step><alter>1</alter><octave>5</octave></pitch><duration>8</duration><voice>1</voice><type>half</type><dynamics><pp/></dynamics><stem>down</stem><accidental>sharp</accidental></note>
+      <note><rest/><duration>8</duration><voice>1</voice><type>half</type></note>
+    </measure>
+    <measure number="3">
+      <harmony placement="above"><root><root-step>E</root-step></root><kind text="maj7">major-seventh</kind></harmony>
+      <note><rest/><duration>8</duration><voice>1</voice><type>half</type></note>
+      <note><pitch><step>D</step><alter>1</alter><octave>5</octave></pitch><duration>4</duration><voice>1</voice><type>quarter</type><stem>down</stem><accidental>sharp</accidental></note>
+      <note><pitch><step>C</step><alter>1</alter><octave>5</octave></pitch><duration>4</duration><voice>1</voice><type>quarter</type><stem>down</stem><accidental>sharp</accidental></note>
+    </measure>
+    <measure number="4"><note><rest/><duration>16</duration><voice>1</voice><type>whole</type></note></measure>
+    <measure number="5"><note><rest/><duration>16</duration><voice>1</voice><type>whole</type></note></measure>
+    <measure number="6">
+      <harmony placement="above"><root><root-step>E</root-step></root><kind text="maj7">major-seventh</kind></harmony>
+      <note><pitch><step>D</step><alter>1</alter><octave>5</octave></pitch><duration>16</duration><voice>1</voice><type>whole</type><dynamics><pp/></dynamics><stem>down</stem><accidental>sharp</accidental></note>
+    </measure>
+    <measure number="7"><note><rest/><duration>16</duration><voice>1</voice><type>whole</type></note></measure>
+    <measure number="8">
+      <harmony placement="above"><root><root-step>E</root-step></root><kind text="maj7">major-seventh</kind></harmony>
+      <note><pitch><step>C</step><alter>1</alter><octave>5</octave></pitch><duration>8</duration><voice>1</voice><type>half</type><dynamics><pp/></dynamics><stem>down</stem><accidental>sharp</accidental></note>
+      <note><rest/><duration>8</duration><voice>1</voice><type>half</type></note>
+    </measure>
+    <measure number="9">
+      <direction placement="above"><direction-type><rehearsal>B</rehearsal></direction-type></direction>
+      <direction placement="above"><direction-type><words>SECTION B - LIGHT SHIFT</words></direction-type></direction>
+      <harmony placement="above"><root><root-step>E</root-step></root><kind text="maj7">major-seventh</kind></harmony>
+      <note><rest/><duration>16</duration><voice>1</voice><type>whole</type></note>
+    </measure>
+    <measure number="10">
+      <harmony placement="above"><root><root-step>E</root-step></root><kind text="maj7">major-seventh</kind></harmony>
+      <note><pitch><step>F</step><alter>1</alter><octave>5</octave></pitch><duration>16</duration><voice>1</voice><type>whole</type><dynamics><pp/></dynamics><stem>down</stem><accidental>sharp</accidental></note>
+    </measure>
+    <measure number="11"><note><rest/><duration>16</duration><voice>1</voice><type>whole</type></note></measure>
+    <measure number="12">
+      <harmony placement="above"><root><root-step>E</root-step></root><kind text="maj7">major-seventh</kind></harmony>
+      <note><pitch><step>E</step><alter>1</alter><octave>5</octave></pitch><duration>16</duration><voice>1</voice><type>whole</type><dynamics><pp/></dynamics><stem>down</stem><accidental>sharp</accidental></note>
+    </measure>
+    <measure number="13"><note><rest/><duration>16</duration><voice>1</voice><type>whole</type></note></measure>
+    <measure number="14">
+      <attributes><time><beats>3</beats><beat-type>4</beat-type></time></attributes>
+      <harmony placement="above"><root><root-step>E</root-step></root><kind text="maj7">major-seventh</kind></harmony>
+      <note><pitch><step>C</step><alter>1</alter><octave>5</octave></pitch><duration>12</duration><voice>1</voice><type>dotted-half</type><dynamics><pp/></dynamics><stem>down</stem><accidental>sharp</accidental></note>
+    </measure>
+    <measure number="15">
+      <direction placement="above"><direction-type><rehearsal>C</rehearsal></direction-type></direction>
+      <direction placement="above"><direction-type><words>SECTION C - DISSOLVE</words></direction-type></direction>
+      <harmony placement="above"><root><root-step>E</root-step></root><kind text="maj7">major-seventh</kind></harmony>
+      <note><rest/><duration>16</duration><voice>1</voice><type>whole</type></note>
+    </measure>
+    <measure number="16">
+      <harmony placement="above"><root><root-step>E</root-step></root><kind text="maj7">major-seventh</kind></harmony>
+      <note><pitch><step>B</step><octave>4</octave></pitch><duration>16</duration><voice>1</voice><type>whole</type><dynamics><pp/></dynamics><stem>up</stem></note>
+    </measure>
+    <measure number="17">
+      <direction placement="above"><direction-type><words>Suggested solo: open</words></direction-type></direction>
+      <harmony placement="above"><root><root-step>E</root-step></root><kind text="maj7">major-seventh</kind></harmony>
+      <note><rest/><duration>16</duration><voice>1</voice><type>whole</type></note>
+    </measure>
+    <measure number="18">
+      <harmony placement="above"><root><root-step>E</root-step></root><kind text="maj7">major-seventh</kind></harmony>
+      <note><pitch><step>E</step><octave>4</octave></pitch><duration>16</duration><voice>1</voice><type>whole</type><dynamics><ppp/></dynamics><stem>up</stem></note>
+    </measure>
+  </part>
+</score-partwise>

@@ -18,6 +18,16 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y musescore3 2>/dev/null || sudo apt-get install -y musescore 2>/dev/null || true
 
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Generate density trio MusicXML
+        run: |
+          cd Fractured-Motion-Orbit
+          python generate_orbit_trio_density.py 1
+
       - name: Find latest trio MusicXML
         id: find
         run: |
@@ -27,14 +37,26 @@ jobs:
           echo "path=$LATEST" >> $GITHUB_OUTPUT
           echo "version=$V" >> $GITHUB_OUTPUT
 
-      - name: Render full score PDF
+      - name: Find latest density trio MusicXML
+        id: find_density
         run: |
-          XML="${{ steps.find.outputs.path }}"
+          LATEST=$(ls -1 Fractured-Motion-Orbit/MusicXML/fractured_motion_orbit_trio_density_v*.musicxml 2>/dev/null | sort -V | tail -1)
+          if [ -z "$LATEST" ]; then echo "No density trio MusicXML found"; exit 1; fi
+          V=$(echo "$LATEST" | grep -oP 'v\d+' | tail -1)
+          echo "path=$LATEST" >> $GITHUB_OUTPUT
+          echo "version=$V" >> $GITHUB_OUTPUT
+
+      - name: Render full score PDFs
+        run: |
           mkdir -p Fractured-Motion-Orbit/LeadSheets
+          XML="${{ steps.find.outputs.path }}"
+          DENSITY_XML="${{ steps.find_density.outputs.path }}"
           if command -v mscore3 &>/dev/null; then
             mscore3 -o Fractured-Motion-Orbit/LeadSheets/fractured_motion_orbit_trio_${{ steps.find.outputs.version }}.pdf "$XML"
+            mscore3 -o Fractured-Motion-Orbit/LeadSheets/fractured_motion_orbit_trio_density_${{ steps.find_density.outputs.version }}.pdf "$DENSITY_XML"
           elif command -v mscore &>/dev/null; then
             mscore -o Fractured-Motion-Orbit/LeadSheets/fractured_motion_orbit_trio_${{ steps.find.outputs.version }}.pdf "$XML"
+            mscore -o Fractured-Motion-Orbit/LeadSheets/fractured_motion_orbit_trio_density_${{ steps.find_density.outputs.version }}.pdf "$DENSITY_XML"
           else
             echo "MuseScore not available"
             exit 1

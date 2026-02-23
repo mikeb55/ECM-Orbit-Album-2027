@@ -16,7 +16,7 @@ jobs:
       - name: Install MuseScore
         run: |
           sudo apt-get update
-          sudo apt-get install -y musescore3 2>/dev/null || sudo apt-get install -y musescore 2>/dev/null || true
+          sudo apt-get install -y musescore3 xvfb
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -47,20 +47,16 @@ jobs:
           echo "version=$V" >> $GITHUB_OUTPUT
 
       - name: Render full score PDFs
+        env:
+          QT_QPA_PLATFORM: offscreen
         run: |
           mkdir -p Fractured-Motion-Orbit/LeadSheets
           XML="${{ steps.find.outputs.path }}"
           DENSITY_XML="${{ steps.find_density.outputs.path }}"
-          if command -v mscore3 &>/dev/null; then
+          xvfb-run --auto-servernum --server-args="-screen 0 1024x768x24" \
             mscore3 -o Fractured-Motion-Orbit/LeadSheets/fractured_motion_orbit_trio_${{ steps.find.outputs.version }}.pdf "$XML"
+          xvfb-run --auto-servernum --server-args="-screen 0 1024x768x24" \
             mscore3 -o Fractured-Motion-Orbit/LeadSheets/fractured_motion_orbit_trio_density_${{ steps.find_density.outputs.version }}.pdf "$DENSITY_XML"
-          elif command -v mscore &>/dev/null; then
-            mscore -o Fractured-Motion-Orbit/LeadSheets/fractured_motion_orbit_trio_${{ steps.find.outputs.version }}.pdf "$XML"
-            mscore -o Fractured-Motion-Orbit/LeadSheets/fractured_motion_orbit_trio_density_${{ steps.find_density.outputs.version }}.pdf "$DENSITY_XML"
-          else
-            echo "MuseScore not available"
-            exit 1
-          fi
 
       - name: Upload PDF artifacts
         uses: actions/upload-artifact@v4

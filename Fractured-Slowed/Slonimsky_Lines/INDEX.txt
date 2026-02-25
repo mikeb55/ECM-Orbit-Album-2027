@@ -1,0 +1,9 @@
+Slonimsky Lines - Fractured-Slowed
+Flugelhorn response phrases (GCE >= 9.0)
+
+Seed_01  interpolation  GCE 10  Stepwise interpolation, motivic
+Seed_02  hybrid  GCE 9  Hybrid hexatonic, modal colour
+Seed_03  interpolation  GCE 9.5  Stepwise interpolation, motivic
+Seed_04  hybrid  GCE 9  Hybrid hexatonic, modal colour
+Seed_05  interpolation  GCE 9.5  Stepwise interpolation, motivic
+Seed_06  hybrid  GCE 9  Hybrid hexatonic, modal colour

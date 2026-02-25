@@ -1,0 +1,42 @@
+---
+description: Andrew Hill ECM Engine — song-based directory lock and versioning
+globs: **/AHillEngine/*,**/*.musicxml
+alwaysApply: false
+---
+
+# Andrew Hill ECM Engine — SONG-BASED DIRECTORY LOCK
+
+## Canonical Root
+
+`C:\Users\mike\Documents\Cursor AI Projects\ECM-Orbit-Album-2027\`
+
+## Song Folder Rule
+
+All outputs go into `./AHillEngine/` relative to the **current song folder**.
+
+- Use the current project/song folder name as the song folder.
+- Do NOT create: parent folders, run folders, timestamped folders, alternate naming.
+- Never create: `AHill-Engine`, `run-*`, nested subdirectories.
+
+**Example:** If song folder is `Departure-Field`, output path:
+`ECM-Orbit-Album-2027\Departure-Field\AHillEngine\`
+
+## Versioning
+
+If files exist, increment suffix:
+- `Example_01.musicxml` → `Example_01_v2.musicxml` → `Example_01_v3.musicxml`
+
+Do NOT overwrite unless explicitly told: "overwrite previous version"
+
+## Required Files
+
+Write into `./AHillEngine/`:
+
+- `Example_01[_vX].musicxml`
+- `Example_01[_vX].mid`
+- `Example_01[_vX].pdf`
+- `Example_01[_vX].md`
+
+## Create if Missing
+
+If `AHillEngine` does not exist, create it. If it exists, reuse it.

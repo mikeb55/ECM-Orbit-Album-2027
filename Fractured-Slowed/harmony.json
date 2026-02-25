@@ -1,0 +1,14 @@
+{
+  "keyCenter": 63,
+  "bpm": 54,
+  "beatsPerBar": 3,
+  "chords": [
+    {"bar": 1, "symbol": "Cm9", "pitchClasses": [0, 3, 7, 10, 2]},
+    {"bar": 9, "symbol": "Fm9", "pitchClasses": [5, 8, 0, 3, 7]},
+    {"bar": 11, "symbol": "Abmaj7", "pitchClasses": [8, 0, 3, 7]},
+    {"bar": 13, "symbol": "Cm9", "pitchClasses": [0, 3, 7, 10, 2]},
+    {"bar": 25, "symbol": "Bb7sus", "pitchClasses": [10, 3, 5, 7]},
+    {"bar": 31, "symbol": "Cm9", "pitchClasses": [0, 3, 7, 10, 2]},
+    {"bar": 40, "symbol": "Csus4", "pitchClasses": [0, 5, 7]}
+  ]
+}

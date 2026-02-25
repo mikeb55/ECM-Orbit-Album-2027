@@ -1,0 +1,22 @@
+=== Slonimsky Flugelhorn Response Phrases - Confirmation ===
+Fractured-Slowed | 6 seeds | GCE >= 9.0
+
+STRUCTURE:
+- Each seed: 3-4 response phrases (2-4 bars each)
+- Breath-shaped phrasing with 25%+ rests
+- Register: MIDI 58-74 (flugelhorn)
+- At least one held tone per phrase
+- One expressive leap (5th/6th) used once and echoed later
+
+MOTIF RECURRENCE (bars where 3-5 pitch cell reappears):
+- Seed_01: Eb4 cell recurs at bars 1-2, 3-4, 5-6 (interpolation)
+- Seed_02: Eb4-G4-Bb4 cell recurs at bars 1-2, 3-4, 5-6 (hybrid)
+- Seed_03: Eb4-C5-Eb4 cell recurs at bars 1-3, 4-5, 6-7 (interpolation)
+- Seed_04: Motif cell recurs 3+ times with variation (hybrid)
+- Seed_05: Motif cell recurs 3+ times with variation (interpolation)
+- Seed_06: Motif cell recurs 3+ times with variation (hybrid)
+
+VALIDATION:
+- node validate.js: PASSED
+- MIDI files: Present and non-empty (line.mid per seed)
+- All seeds scored >= 9.0 on GCE evaluation

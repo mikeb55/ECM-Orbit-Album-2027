@@ -20,6 +20,18 @@ Exports/
 # If you generate PDFs locally and don't want them versioned:
 # *.pdf
 
+# Andrew Hill Engine generated outputs (engine lives in Andrew-Hill-Engine repo)
+**/AHillEngine/*.musicxml
+**/AHillEngine/*.mid
+**/AHillEngine/*.pdf
+**/AHillEngine/*.md
+**/AHillEngine/*.sib
+**/AHillEngine/run-*/
+**/AHillEngine/run-auto-*/
+**/AHill-Engine/run-*/
+**/AHill-Engine/run-auto-*/
+**/Mirrror Chamber AHillEngine/
+
 # ---- ECM_ORBIT_NONALBUM_IGNORE_START ----
 _NONALBUM_LOCAL_BACKUP/
 _QUARANTINE/

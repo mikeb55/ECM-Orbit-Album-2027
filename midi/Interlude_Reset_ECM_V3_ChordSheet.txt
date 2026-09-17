@@ -1,0 +1,15 @@
+Interlude_Reset_ECM_V3   3/4   48 bpm   25 bars
+
+
+  [SECTION A – FIELD]
+  bar   1   D
+  bar   5   D
+
+  [SECTION B – SUBTLE MOVEMENT]
+  bar   9   G
+  bar  13   G
+  bar  17   G
+
+  [SECTION C – SUSPENSION]
+  bar  18   E
+  bar  22   D

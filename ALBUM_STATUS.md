@@ -279,3 +279,36 @@ Current count is 2 chord *changes* (4 written symbols, bars 13–15 being one ch
 
 All seven pieces remain ALIGNED, all endings non-cadential, still zero V–I, ii–V–I or
 circle-of-fifths anywhere.
+
+### 2026-09-18 — chord beds exported for melody drafting
+
+`tools/export_chord_midi.py` writes a type-1 MIDI file per piece into `midi/`, plus a
+plain-text chord sheet. Four tracks: section markers with tempo and metre, CHORDS
+(one sustained block chord per harmonic change), LEAD ref, and BASS. Transposing parts
+are corrected via `<transpose><chromatic>`, so everything sounds at **concert pitch**
+(verified: The Mirror's written F5 flugelhorn exports as Eb5).
+
+Purpose: draft melody over the finished BHL harmony in a DAW.
+
+**HookPad is not a viable route for this.** It cannot import MIDI — Hooktheory's own
+forum lists MIDI input as a planned future feature for Plus members, and the planned
+version is melody input only, not chords. Everything would have to be re-entered by
+hand as Roman numerals relative to a key, and this harmony is deliberately
+non-functional and frequently has no key centre at all.
+
+**Second finding, alongside the thin melodies: the bass parts are pedals, not lines.**
+Distinct pitches across each whole piece:
+
+| Piece | Bass notes | Distinct pitches |
+|---|---|---|
+| North Light | 24 | **1** (E2 x24) |
+| First Light | 61 | **2** (G2 x60) |
+| Quiet Field | 23 | 2 (D2 x21) |
+| Lyrical Expansion | 56 | 3 (Ab2 x54) |
+| The Mirror | 59 | 4 |
+| Harmolodic Sketch | 57 | 4 |
+| Orbit | 54 | 10 |
+
+This corrects an earlier statement that the bass was the busiest voice. It has the most
+note *events*, but they are one pitch repeated. On a drummerless record the bass is a
+lead voice, so this needs writing too. Orbit is the only piece with a real bass line.

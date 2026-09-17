@@ -1,0 +1,20 @@
+Lyrical_Expansion_ECM_V2   3/4   54 bpm   56 bars
+
+
+  [SECTION A – FIELD]
+  bar   1   Abmaj9
+  bar   7   Abmaj9(#11)
+  bar   8   Abmaj9
+  bar  13   Bmaj7(#11)/Ab
+  bar  18   Fm9/Ab
+  bar  21   Dbmaj9/Ab
+
+  [SECTION C – DIALOGUE]
+  bar  25   Abmaj9
+  bar  31   Fm9
+  bar  34   Abadd2(no3)
+
+  [SECTION E – RETURN / AFTERGLOW]
+  bar  41   Abmaj9(add6)
+  bar  49   Fm9/Ab
+  bar  53   Ab5

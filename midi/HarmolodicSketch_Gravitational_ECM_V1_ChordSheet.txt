@@ -1,0 +1,23 @@
+HarmolodicSketch_Gravitational_ECM_V1   4/4   48 bpm   58 bars
+
+
+  [SECTION A – AXIS ESTABLISHMENT]
+  bar   1   G
+  bar   5   G
+
+  [SECTION B – FIRST ROTATION]
+  bar   9   G
+  bar  13   Eb
+  bar  17   B
+  bar  21   Gb
+
+  [SECTION C – SECOND ROTATION]
+  bar  23   Bb
+  bar  27   Bb
+  bar  31   F
+  bar  35   D
+  bar  39   D
+  bar  43   Eb
+  bar  47   A
+  bar  51   F
+  bar  55   D

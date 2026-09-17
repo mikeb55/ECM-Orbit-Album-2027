@@ -1,0 +1,26 @@
+Orbit_ECM_Chamber_V3   3/4   56 bpm   52 bars
+
+
+  [SECTION A – AXIS]
+  bar   1   Fmaj7
+  bar   5   Fmaj7(add2)
+  bar   7   Ebmaj7(#5)/F
+
+  [SECTION B – EXPANSION]
+  bar   9   Bbm9/F
+  bar  11   Abmaj7/F
+  bar  13   Gb6(add9)/F
+  bar  17   Abmaj7/F
+
+  [SECTION C – ORBIT]
+  bar  19   G/F
+  bar  22   Eb/F
+  bar  25   Dbmaj7/F
+  bar  28   Bmaj7/F
+  bar  31   Emaj7/Gb
+
+  [SECTION D – DISSOLUTION]
+  bar  34   Dbmaj7
+  bar  37   Bb7sus
+  bar  41   Fmaj9(add6)
+  bar  47   Fmaj7(add2)

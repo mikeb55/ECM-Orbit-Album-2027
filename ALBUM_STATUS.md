@@ -129,3 +129,31 @@ sixth over B major) is the one demanding note; it can drop an octave if the
 player prefers.
 
 Still to do on this piece: the alto part through Sections B, C and D.
+
+
+## Flugelhorn transposition — fixed across the album, 2026-09-18
+
+All five remaining chamber pieces had the same fault as The Mirror: the part was
+declared `Flugelhorn in Bb` with `transpose -2`, but the notes and key signature
+were concert pitch. Every printed part would have been a tone flat. Notes
+transposed up a major 2nd and written keys corrected:
+
+| Piece | Written key before | After |
+|:--|:--|:--|
+| First Light | G (+1) | A (+3) |
+| Harmolodic Sketch | G (+1) | A (+3) |
+| Lyrical Expansion | Ab (-4) | Bb (-2) |
+| North Light | E (+4) | F# (+6) |
+| Orbit | C (0) | D (+2) |
+
+Sounding pitch in each case now equals the original written pitch.
+
+Also: First Light bar 8 became a written B5 after correction, above the
+flugelhorn's reliable register — lowered to G#5 (concert F#5, diatonic).
+Orbit's guitar and bass were 2 bars short of the flugelhorn's 52 — padded with
+rest bars so the parts align.
+
+North Light is now written in F# major (6 sharps). Correct, but if the player
+would rather read Gb, say so and it can be respelled enharmonically.
+
+All 16 tracked scores now pass validation with no warnings.

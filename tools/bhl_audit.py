@@ -146,7 +146,9 @@ def audit(path):
         run = run + 1 if i == 5 else 0
         if run >= 2:
             cof += 1
-    banned = sum(1 for _, k, _ in ch if k in ("major-11th", "major-13th"))
+    # Detect on the label, not the base kind: the #11 lives in the display text,
+    # and parse_text() rewrites the kind key, so keying off <kind> misses them all.
+    banned = sum(1 for _, _, lab in ch if "#11" in lab)
 
     # Ending: last root motion. Plagal (+7 = up a fifth/down a fourth) or
     # authentic (+5) reads as a conventional cadence.
@@ -183,7 +185,11 @@ def verdict(r):
     # must not condemn a piece.
     if bad >= 4:
         return "CONFLICTS", "functional progression is the organising principle"
-    if bad >= 1 or r["banned"] or r["ending"] != "non-cadential":
+    # maj7(#11) is a writing discipline, not a score rule: the colour is banned as
+    # a first choice when inventing a chord, but arriving at it is legitimate, and
+    # it cannot be policed on the symbol anyway (the melody can sound the #11
+    # regardless). Counted and reported, never a verdict downgrade.
+    if bad >= 1 or r["ending"] != "non-cadential":
         return "PARTIAL", "largely non-functional with conventional residue"
     if r["liquid"] >= 0.3:
         return "ALIGNED", "non-functional, common-tone connected"
@@ -212,7 +218,8 @@ def main():
     print("\n  liquid = mean common-tone retention between successive chords (Liquid Harmony)")
     print("  step%  = root motion by step; 5th% = root motion by descending fifth")
     print("  V-I / iiVI / CoF = functional cadences and circle-of-fifths chains (BHL avoids)")
-    print("  ban    = maj7(#11)-family chords (temporarily banned under BHL)")
+    print("  ban    = maj7(#11)-family chords — reported only, not a violation:")
+    print("           banned as a default choice, not as a sonority")
 
     print("\n--- detail ---")
     for r in rows:

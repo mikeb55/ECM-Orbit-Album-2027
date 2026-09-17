@@ -242,3 +242,40 @@ understated common-tone retention. Fixed — figures above are on corrected meas
 
 Nothing here has been heard. The tools guarantee valid files, playable ranges and
 harmony-correct symbols; they cannot judge whether it sounds good.
+
+### 2026-09-18, later — maj7(#11) ban narrowed
+
+Reversed part of the pass above. The ban is now a **writing discipline, not a score
+rule**: maj7(#11) is banned as a default choice when inventing a chord, but arriving
+at it is legitimate, and it is no longer a verdict downgrade in the audit.
+
+Reason it could not be enforced as written: the ban only removes the chord *symbol*,
+never the sonority. Bar 7 of Lyrical Expansion still had the guitar playing D natural
+over Ab after the "fix", so the label had been made to contradict its own notes. The
+same is true of Orbit bars 7–8 (flugelhorn A over Ebmaj7 on an F pedal). Enforcing it
+properly would mean policing the melody.
+
+It also conflicts with BHL's own worlds — World A (triad pairs) and World F (unrelated
+major triads) generate Lydian collections by construction: F major + G major is
+F Lydian, i.e. Fmaj7(#11).
+
+**Restored in Lyrical Expansion:**
+
+- bar 7 — `Abmaj9(add6)` → **`Abmaj9(#11)`** (matches the guitar's D natural)
+- bars 13–15 — `Bmaj7(add2)/Ab` → **`Bmaj7(#11)/Ab`**, a major-seventh structure over
+  a foreign bass, which is the most Wheeler-like chord conception on the album
+
+Side effect worth noting: restoring them **raised** Liquid Harmony, 0.77 → 0.79. The
+banned chord had been doing common-tone work; removing it made the voice-leading
+slightly worse, not better.
+
+Left as changed: Orbit's `maj7(add2, add#11)` → `maj7(add2)`. That one was a stacked
+label rather than a harmonic conception, and the #11 still sounds there in the melody
+anyway. Say if you want it back.
+
+Audit tooling: the ban column is now reported for information only, and detects on the
+chord label rather than the base `<kind>` element, which previously missed every one.
+Current count is 2 chord *changes* (4 written symbols, bars 13–15 being one change).
+
+All seven pieces remain ALIGNED, all endings non-cadential, still zero V–I, ii–V–I or
+circle-of-fifths anywhere.

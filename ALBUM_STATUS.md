@@ -182,3 +182,63 @@ which is deliberate — it gives the brass player three recovery windows in a pi
 that is otherwise continuous lyrical playing.
 
 Not verified: how it sounds. Needs playback.
+
+## 2026-09-18 — BHL pass (Bryant Harmonic Language)
+
+BHL was codified 2026-08-06; all seven album pieces were first committed 2026-02-22,
+so every one predates the language. This pass brought them into it.
+
+**Harmonic worlds assigned** (from the pitch content already in each score, not imposed):
+
+| Piece | World | Evidence |
+|---|---|---|
+| First Light | A — Triad Pairs | guitar already moves in chains of thirds |
+| North Light | C — Major + Augmented | section C fits hexatonic on Eb; brief says "E Lydian, vertical" |
+| The Mirror | D — Major + Diminished | its Ab/B/D/F content is a dim7 plus major triads |
+| Interlude: Quiet Field | E — Pentatonic | pitch content is only G A C D E |
+| Harmolodic Sketch | F — Unrelated Major Triads | G pitch-axis; rotation by major thirds (G–Eb–B) |
+| Orbit | F — Unrelated Major Triads | maj7 planing between unrelated roots |
+| Lyrical Expansion | (already BHL-native) | left alone apart from banned colours |
+
+**Changes made**
+
+1. Harmonised the four pieces that had no chord timeline — First Light (16 symbols),
+   Harmolodic Sketch (15), North Light (9), Quiet Field (7). Written into the **guitar**
+   staff, since the guitar defines the harmonic field. Dominant-quality chords are
+   excluded from every world pool, which makes V–I unreachable by construction.
+   Change points fall on section starts and every fourth bar. Section A's chord is
+   reused later for long-range recurrence, and every ending is forced non-cadential.
+2. Re-harmonised **The Mirror** in World D. Its previous 29 symbols were placeholder,
+   not authored, so they were removed rather than patched. Cm6 now recurs across
+   sections A, D and E as the long-range anchor. Liquid 0.49 → 0.62.
+3. Removed all five **banned maj7(#11)-family** chords: four in Lyrical Expansion
+   (`maj9(#11)` → `maj9(add6)`, three `maj7(#11)/Ab` → `maj7(add2)/Ab`) and one in
+   Orbit (`maj7(add2, add#11)` → `maj7(add2)`).
+4. **Orbit**: recoloured four `Gbmaj7` → `Gb6(add9)`, which breaks the
+   Abmaj7–Gbmaj7–Abmaj7 parallel planing and buys two common tones on each side
+   while keeping every root and every written note. Liquid 0.32 → 0.39.
+5. **Dropped Fractured Motion** from the album — score, Sibelius source and video.
+   It is functional bebop: 15 V–I, 8 ii–V–I, 23 circle-of-fifths chains, 69% root
+   motion by descending fifth. It is the one piece that directly conflicts with BHL.
+
+**Result: all seven remaining pieces audit ALIGNED, with non-cadential endings and
+zero V–I, ii–V–I or circle-of-fifths chains anywhere.**
+
+**Measurement correction.** The first audit read only the base `<kind>` element and
+ignored the `add2`/`add6`/`#5` colours carried in the `text` attribute, which
+understated common-tone retention. Fixed — figures above are on corrected measurement.
+
+### Two things still needing Mike's ear
+
+- **Orbit remains the weakest voice-leading on the album** (0.39, and 47% of its root
+  motion is stepwise planing). Fixing it properly means changing roots, i.e.
+  recomposing the piece — not a quality tweak. That is a decision for the ear, not
+  the tool.
+- **Bars 7–8 of Orbit sound a maj7(#11)** even though it is no longer spelled: the
+  flugelhorn plays A over Ebmaj7 with an F pedal beneath. No Eb-rooted chord can hold
+  that A without producing the banned colour. Options: accept it as an Eb Lydian
+  field, or move the chord to Dm9 (four common tones with the preceding Fmaj7, keeps
+  every written note). Not changed unilaterally.
+
+Nothing here has been heard. The tools guarantee valid files, playable ranges and
+harmony-correct symbols; they cannot judge whether it sounds good.

@@ -53,6 +53,39 @@ KINDS = {
 }
 
 
+# Colour tokens that appear in the <kind text="..."> display string. These carry
+# real pitch content, so ignoring them understates common-tone retention.
+ADD = {"add2": {2}, "2": {2}, "add9": {2}, "9": {2}, "add6": {9}, "6": {9},
+       "13": {9}, "add4": {5}, "11": {5}, "#11": {6}, "b9": {1}, "#9": {3}}
+REMOVE = {"no3": {3, 4}, "sus": {3, 4}, "sus4": {3, 4}, "#5": {7}, "b5": {7}}
+ALTER = {"#5": {8}, "b5": {6}, "sus": {5}, "sus4": {5}}
+
+
+def parse_text(kind, text):
+    """Fold the display extensions into a pitch-class set and register the result
+    as its own kind key, so voice-leading is measured on what actually sounds."""
+    base = set(KINDS.get(kind, ((0, 4, 7), kind))[0])
+    if not text:
+        return kind
+    body = text.split("/")[0]                      # drop slash bass
+    toks = [t.strip().lower() for t in re.split(r"[(),\s]+", body) if t.strip()]
+    toks = [t for t in toks if t not in ("maj7", "maj9", "maj", "m9", "m", "7", "m7", "dim", "dim7")]
+    toks = [t[3:] if t.startswith("add") and t[3:] in ADD else t for t in toks]
+    hit = False
+    for t in toks:
+        if t == "5":                                # power chord: root + fifth only
+            base = {0, 7}; hit = True; continue
+        if t in REMOVE:
+            base -= REMOVE[t]; base |= ALTER.get(t, set()); hit = True
+        if t in ADD:
+            base |= ADD[t]; hit = True
+    if not hit:
+        return kind
+    key = f"{kind}[{text}]"
+    KINDS[key] = (tuple(sorted(base)), "")
+    return key
+
+
 def chords_of(path):
     """Return [(root_pc, kind, label)] in order, repeats collapsed."""
     s = re.sub(r'\sxmlns="[^"]+"', "", open(path, encoding="utf-8").read())
@@ -63,9 +96,13 @@ def chords_of(path):
             continue
         al = re.search(r"<root-alter>(-?\d+)", h)
         kd = re.search(r"<kind[^>]*>([^<]+)", h)
+        tx = re.search(r'<kind[^>]*\btext="([^"]*)"', h)
         root = (PC[st.group(1).strip()] + (int(al.group(1)) if al else 0)) % 12
         kind = (kd.group(1).strip() if kd else "major")
-        label = NAMES[root] + KINDS.get(kind, ((0, 4, 7), kind))[1]
+        text = tx.group(1).strip() if tx else ""
+        label = NAMES[root] + (text.split("/")[0] if text
+                               else KINDS.get(kind, ((0, 4, 7), kind))[1])
+        kind = parse_text(kind, text)
         if not out or (out[-1][0], out[-1][1]) != (root, kind):
             out.append((root, kind, label))
     return out

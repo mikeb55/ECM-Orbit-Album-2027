@@ -299,19 +299,19 @@
       <note><rest /><duration>12</duration><voice>1</voice><type>half</type><dot /></note>
     </measure>
     <measure number="13">
-      <harmony placement="above"><root><root-step>G</root-step><root-alter>-1</root-alter></root><kind text="maj7/F">major-seventh</kind><bass><bass-step>F</bass-step><bass-alter>0</bass-alter></bass></harmony>
+      <harmony placement="above"><root><root-step>G</root-step><root-alter>-1</root-alter></root><kind text="6(add9)">major-sixth</kind><bass><bass-step>F</bass-step><bass-alter>0</bass-alter></bass></harmony>
       <note><rest /><duration>12</duration><voice>1</voice><type>half</type><dot /></note>
     </measure>
     <measure number="14">
-      <harmony placement="above"><root><root-step>G</root-step><root-alter>-1</root-alter></root><kind text="maj7/F">major-seventh</kind><bass><bass-step>F</bass-step><bass-alter>0</bass-alter></bass></harmony>
+      <harmony placement="above"><root><root-step>G</root-step><root-alter>-1</root-alter></root><kind text="6(add9)">major-sixth</kind><bass><bass-step>F</bass-step><bass-alter>0</bass-alter></bass></harmony>
       <note><rest /><duration>12</duration><voice>1</voice><type>half</type><dot /></note>
     </measure>
     <measure number="15">
-      <harmony placement="above"><root><root-step>G</root-step><root-alter>-1</root-alter></root><kind text="maj7/F">major-seventh</kind><bass><bass-step>F</bass-step><bass-alter>0</bass-alter></bass></harmony>
+      <harmony placement="above"><root><root-step>G</root-step><root-alter>-1</root-alter></root><kind text="6(add9)">major-sixth</kind><bass><bass-step>F</bass-step><bass-alter>0</bass-alter></bass></harmony>
       <note><rest /><duration>12</duration><voice>1</voice><type>half</type><dot /></note>
     </measure>
     <measure number="16">
-      <harmony placement="above"><root><root-step>G</root-step><root-alter>-1</root-alter></root><kind text="maj7/F">major-seventh</kind><bass><bass-step>F</bass-step><bass-alter>0</bass-alter></bass></harmony>
+      <harmony placement="above"><root><root-step>G</root-step><root-alter>-1</root-alter></root><kind text="6(add9)">major-sixth</kind><bass><bass-step>F</bass-step><bass-alter>0</bass-alter></bass></harmony>
       <note><rest /><duration>12</duration><voice>1</voice><type>half</type><dot /></note>
     </measure>
     <measure number="17">
@@ -447,7 +447,7 @@
     </measure>
     <measure number="47">
       <attributes><divisions>4</divisions></attributes>
-      <harmony placement="above"><root><root-step>F</root-step><root-alter>0</root-alter></root><kind text="maj7(add2, add#11)">major-seventh</kind></harmony>
+      <harmony placement="above"><root><root-step>F</root-step><root-alter>0</root-alter></root><kind text="maj7(add2)">major-seventh</kind></harmony>
       <note><pitch><step>B</step><octave>4</octave></pitch><duration>4</duration><voice>1</voice><type>quarter</type><dynamics><pp /></dynamics><stem>up</stem></note>
       <note><chord /><pitch><step>G</step><octave>4</octave></pitch><duration>4</duration><voice>1</voice><type>quarter</type><stem>up</stem></note>
       <note><pitch><step>C</step><octave>5</octave></pitch><duration>8</duration><voice>1</voice><type>half</type><stem>up</stem></note>

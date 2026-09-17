@@ -157,3 +157,28 @@ North Light is now written in F# major (6 sharps). Correct, but if the player
 would rather read Gb, say so and it can be respelled enharmonically.
 
 All 16 tracked scores now pass validation with no warnings.
+
+
+## The Mirror — alto part added, 2026-09-18
+
+Sections: **A 1–8 · B 9–24 · C 25–38 · D 39–51 · E 52–60.**
+
+Alto saxophone (Eb, written key F major, transpose -9) added as a fourth part.
+31 notes across 60 bars, 48% rest — matching the restraint of the existing parts.
+
+| Section | Alto treatment |
+|:--|:--|
+| A (1–8) Field | Tacet. Flugelhorn states the field alone. |
+| B (9–24) Mirror Counterpoint | Alto enters, inverting the flugelhorn contour. Voices kept a minor 6th or wider apart throughout. |
+| C (25–38) Destabilisation | Voices deliberately close — bar 26 is a perfect 4th apart, the one intentional collision. |
+| D (39–51) Dissolved Return | Alto carries the line while the flugelhorn rests. |
+| E (52–60) Afterglow | Tacet. Flugelhorn owns the closing descent. |
+
+Verified: **0 spacing violations outside Section C**; alto written range D4–C6,
+inside the instrument's Bb3–F#6; bar 38 total silence preserved across all parts.
+
+The flugelhorn now rests at bars 20–24, 31–38 and 48–51 while the alto plays,
+which is deliberate — it gives the brass player three recovery windows in a piece
+that is otherwise continuous lyrical playing.
+
+Not verified: how it sounds. Needs playback.

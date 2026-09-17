@@ -137,6 +137,15 @@ def validate(path):
     if total_measures == 0:
         errors.append("score contains no measures")
 
+    # Parts of unequal length will not line up in performance. This caught
+    # The Mirror, where the guitar was one bar short of the other two parts.
+    lengths = {p.get("id"): len(p.findall("measure")) for p in parts}
+    if len(set(lengths.values())) > 1:
+        detail = ", ".join(
+            f"{names.get(k, k)}={v}" for k, v in sorted(lengths.items(), key=lambda kv: -kv[1])
+        )
+        errors.append(f"parts have different bar counts ({detail})")
+
     if not root.findall(".//sound[@tempo]") and not root.findall(".//metronome"):
         warnings.append("no tempo marking found")
 

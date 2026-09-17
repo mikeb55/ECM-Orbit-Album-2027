@@ -98,3 +98,34 @@ This makes the file unopenable in Sibelius, MuseScore and Dorico. `Lyrical_Expan
 2. Extend `Lyrical Expansion V2` to ~110 bars with an embedded dialogue improvisation; promote to title track.
 3. Generate flugelhorn/guitar/bass lead-sheet PDFs — this repo currently has **zero** printable parts.
 4. Verify authorship on any title imported from the GCE-Jazz repo before release.
+
+
+## The Mirror — repairs, 2026-09-18
+
+Three faults found and fixed in `Mirror-Chamber/Mirror_Chamber_ECM_V1.musicxml`:
+
+1. **Guitar was one bar short** (59 bars against 60). Inserted bar 40 as a whole
+   rest. All three parts now 60 bars.
+2. **Flugelhorn transposition was wrong.** The part carried `transpose -2` and a
+   written key of Ab major (-4) — i.e. declared as a Bb instrument but with
+   concert-pitch notes and a concert key signature. Any notation program would
+   have played and printed it a tone flat. Notes transposed up a major 2nd and
+   written key set to Bb major (-2), so the part now reads correctly for the
+   player and sounds as composed. Sounding pitch is now identical to the
+   original written pitch.
+3. **Flugelhorn went too high.** Bar 28 would have been written C#6 after
+   correction, well above the register where the instrument stays reliable.
+   Lowered to concert F#5 (written G#5), which also improves the contour —
+   the phrase now descends from the bar 26 peak instead of leaping to a bare root.
+
+Also added **29 chord symbols** across the form, derived from the bass roots and
+guitar dyads. The file previously had none, so it could not be read or improvised
+over. Form: Abmaj9 / Absus / Ab7 / Abm — B–E chromatic pair — Bmaj7 with B/E
+oscillation through Sections B and C — Ab pedal and silence — Dbmaj9 / Dbm —
+Abmaj7 with the closing descent.
+
+Written flugelhorn range is now D4–Bb5. The single Bb5 (bar 26, concert Ab5, the
+sixth over B major) is the one demanding note; it can drop an octave if the
+player prefers.
+
+Still to do on this piece: the alto part through Sections B, C and D.

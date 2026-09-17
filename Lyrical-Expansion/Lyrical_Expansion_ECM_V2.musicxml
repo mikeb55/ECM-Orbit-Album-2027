@@ -52,7 +52,7 @@
       <direction placement="above"><direction-type><rehearsal>A</rehearsal></direction-type></direction>
       <direction placement="above"><direction-type><words>SECTION A – FIELD</words></direction-type></direction>
       <direction placement="above"><direction-type><words>Floating, cantabile, no swing, no rhythmic propulsion</words></direction-type></direction>
-      <direction placement="above"><direction-type><metronome><beat-unit>quarter</beat-unit><per-minute>54</per-minute></metronome></direction-type>
+      <direction placement="above"><direction-type><metronome><beat-unit>quarter</beat-unit><per-minute>54</per-minute></metronome></direction-type></direction>
       <sound tempo="54"/>
       <note><rest/><duration>12</duration><voice>1</voice><type>half</type><dot/></note>
     </measure>

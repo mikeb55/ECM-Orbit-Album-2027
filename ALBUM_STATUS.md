@@ -33,7 +33,51 @@ Drummerless, after Kenny Wheeler, *Angel Song* (ECM, 1997).
 - **Eviscerating Angels (V4, V5)** — 5/4 at 76bpm is high-risk without a drummer; tonal outlier.
 - **21 superseded versions** — later version numbers were consistently *worse*: `Myrtle's Prayer V5` lost 68% of the guitar part, `Harmolodic V4` lost two sections, `First Light V2/V3` put the flugelhorn below its range, `Mirror V3` lost a quarter of the melody.
 
-## Known generator bug — FIXED IN FILES, NOT IN CODE
+## Validation gate — ACTIVE
+
+Scores are checked on every commit by `tools/validate_scores.py`.
+
+**One-time setup per machine** (hook config is local and cannot be committed):
+
+```
+setup-hooks.bat        (Windows)
+./setup-hooks.sh       (Mac/Linux)
+```
+
+Manual runs:
+
+```
+python tools/validate_scores.py --all       # every tracked score
+python tools/validate_scores.py --staged    # what you're about to commit
+```
+
+Blocks a commit on: malformed XML, missing `<part-list>`, a declared part with no
+music, zero measures, out-of-range octaves. Warns on: a part under 6% sounding
+notes (unwritten rather than deliberately sparse), missing tempo marking.
+The 6% threshold sits well below the sparsest legitimate part in this repo
+(North Light's flugelhorn, 32%), so real ECM sparseness passes untouched.
+Emergency override: `SKIP_SCORE_CHECK=1 git commit ...`
+
+Regression-tested against the two faults that actually occurred here: it fails
+the broken Lyrical Expansion V1 and names the exact fix, and it flags Orbit V1's
+empty guitar part.
+
+## Where the bad files came from
+
+There is no generator script. Nothing in this repo emits these scores — the two
+HTML apps produce a different, simpler MusicXML with no tempo directions at all.
+The `<software>` tags name a working method rather than a program
+(`GCE-Jazz V1.0`, `DTE v2.1`, `Breath-Stop`), and the quartet pieces sit under
+`Documents/Cursor AI Projects/`. These files were written as raw MusicXML text by
+AI sessions.
+
+Two distinct producers are visible in the formatting. The quartet family is
+pretty-printed with `<sound tempo="63" />` and is well-formed throughout. The
+chamber-trio family is compact with `<sound tempo="52"/>` and is where all seven
+broken files occurred. The failure was intermittent — 7 of 20 files — which is
+why a validation gate is the right fix and a code patch is not.
+
+## The original fault
 
 Seven files were emitted with an unclosed metronome direction:
 
@@ -46,7 +90,7 @@ Seven files were emitted with an unclosed metronome direction:
 <sound tempo="54"/>
 ```
 
-This makes the file unopenable in Sibelius, MuseScore and Dorico. `Lyrical_Expansion_ECM_V2` has been patched. **The generator that produced this has not been fixed** — check every new chamber export until it is.
+This makes the file unopenable in Sibelius, MuseScore and Dorico. `Lyrical_Expansion_ECM_V2` has been patched; the other six files were deleted. The commit gate above catches any recurrence.
 
 ## Next actions
 

@@ -1,7 +1,21 @@
 #!/bin/sh
+# 1. Branch guard
 branch="$(git rev-parse --abbrev-ref HEAD)"
 if [ "$branch" = "main" ] || [ "$branch" = "master" ]; then
   echo "Blocked: do not commit on $branch. Switch to your machine branch (home/mike or work/mike)."
   exit 1
+fi
+
+# 2. Score validation gate
+if [ -n "$SKIP_SCORE_CHECK" ]; then
+  echo "score check skipped (SKIP_SCORE_CHECK set)"
+  exit 0
+fi
+PY=python
+command -v python >/dev/null 2>&1 || PY=python3
+if command -v "$PY" >/dev/null 2>&1; then
+  "$PY" tools/validate_scores.py --staged || exit 1
+else
+  echo "warning: python not found; score validation skipped"
 fi
 exit 0

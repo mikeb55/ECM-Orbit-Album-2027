@@ -1,0 +1,23 @@
+Mirror_Chamber_ECM_V1
+set Hookpad to:   key Gm   4/4   52 bpm   60 bars
+(76% of the chord tones fall inside that scale - enter chords by letter name in the chord search, not by typing 1-7)
+
+  bar  written                type into Hookpad  what Hookpad drops
+--------------------------------------------------------------------------------------
+    1  Cm6                    Cm6                
+    5  Abmaj7                 Abmaj7             
+    9  Abm6                   Abm6               
+   13  Amaj7                  Amaj7              
+   17  Gmaj7                  Gmaj7              
+   21  G                      G                  
+   25  Ebmaj7                 Ebmaj7             
+   29  Edim                   Edim               
+   33  Edim7                  Edim7              
+   37  Eb                     Eb                 
+   39  Cm6                    Cm6                
+   43  C                      C                  
+   47  Cm6                    Cm6                
+   51  Cdim7                  Cdim7              
+   52  Cm6                    Cm6                
+   56  Dm6                    Dm6                
+   60  F                      F                  

@@ -1,0 +1,22 @@
+FirstLight_Chamber_ECM_V1
+set Hookpad to:   key C   4/4   50 bpm   60 bars
+(88% of the chord tones fall inside that scale - enter chords by letter name in the chord search, not by typing 1-7)
+
+  bar  written                type into Hookpad  what Hookpad drops
+--------------------------------------------------------------------------------------
+    1  E6                     E6                 
+    5  G6                     G6                 
+    9  Em                     Em                 
+   13  Am6                    Am6                
+   17  F6                     F6                 
+   21  Dm6                    Dm6                
+   25  C6                     C6                 
+   29  G6                     G6                 
+   33  G                      G                  
+   37  Bb6                    Bb6                
+   41  Gm                     Gm                 
+   45  Gm6                    Gm6                
+   49  Am                     Am                 
+   52  Am6                    Am6                
+   56  Am                     Am                 
+   60  F6                     F6                 

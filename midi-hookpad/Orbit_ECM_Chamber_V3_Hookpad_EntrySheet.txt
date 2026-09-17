@@ -1,0 +1,22 @@
+Orbit_ECM_Chamber_V3
+set Hookpad to:   key Fm   3/4   56 bpm   52 bars
+(73% of the chord tones fall inside that scale - enter chords by letter name in the chord search, not by typing 1-7)
+
+  bar  written                type into Hookpad  what Hookpad drops
+--------------------------------------------------------------------------------------
+    1  Fmaj7                  Fmaj7              
+    5  Fmaj7(add2)            Fmaj7              add2
+    7  Ebmaj7(#5)/F           Ebaug/F            the maj7 - kept the #5 as an augmented triad
+    9  Bbm9/F                 Bbm7/F             the 9th
+   11  Abmaj7/F               Abmaj7/F           
+   13  Gb6(add9)/F            Gb6/F              the 9th
+   17  Abmaj7/F               Abmaj7/F           
+   19  G/F                    G/F                
+   22  Eb/F                   Eb/F               
+   25  Dbmaj7/F               Dbmaj7/F           
+   28  Bmaj7/F                Bmaj7/F            
+   31  Emaj7/Gb               Emaj7/Gb           
+   34  Dbmaj7                 Dbmaj7             
+   37  Bb7sus                 Bbsus4             the b7
+   41  Fmaj9(add6)            F6                 the maj7 and 9th - kept the 6th
+   47  Fmaj7(add2)            Fmaj7              add2

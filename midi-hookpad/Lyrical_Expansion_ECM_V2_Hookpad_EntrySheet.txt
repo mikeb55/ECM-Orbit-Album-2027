@@ -1,0 +1,18 @@
+Lyrical_Expansion_ECM_V2
+set Hookpad to:   key Cm   3/4   54 bpm   56 bars
+(95% of the chord tones fall inside that scale - enter chords by letter name in the chord search, not by typing 1-7)
+
+  bar  written                type into Hookpad  what Hookpad drops
+--------------------------------------------------------------------------------------
+    1  Abmaj9                 Abmaj7             the 9th
+    7  Abmaj9(#11)            Abmaj7             #11 and 9th - Hookpad has no #11
+    8  Abmaj9                 Abmaj7             the 9th
+   13  Bmaj7(#11)/Ab          Bmaj7/Ab           #11 - Hookpad has no #11
+   18  Fm9/Ab                 Fm7/Ab             the 9th
+   21  Dbmaj9/Ab              Dbmaj7/Ab          the 9th
+   25  Abmaj9                 Abmaj7             the 9th
+   31  Fm9                    Fm7                the 9th
+   34  Abadd2(no3)            Absus2             nothing - sus2 is the same sonority
+   41  Abmaj9(add6)           Ab6                the maj7 and 9th - kept the 6th
+   49  Fm9/Ab                 Fm7/Ab             the 9th
+   53  Ab5                    Ab                 nothing - no power chords, use the plain triad

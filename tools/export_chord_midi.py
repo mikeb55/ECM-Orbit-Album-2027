@@ -49,6 +49,16 @@ KINDS = {
     "suspended-fourth": (0, 5, 7),
 }
 # Colour tokens in the <kind text="..."> label carry real pitch content.
+# When a chord carries no text="" label, build the symbol from <kind>.
+KIND_SYM = {
+    "major": "", "minor": "m", "augmented": "aug", "diminished": "dim",
+    "diminished-seventh": "dim7", "half-diminished": "m7b5",
+    "major-sixth": "6", "minor-sixth": "m6", "major-seventh": "maj7",
+    "minor-seventh": "m7", "dominant": "7", "major-ninth": "maj9",
+    "minor-ninth": "m9", "major-11th": "maj11", "minor-11th": "m11",
+    "major-13th": "maj13", "minor-13th": "m13",
+    "suspended-second": "sus2", "suspended-fourth": "sus4",
+}
 ADD = {"add2": 2, "2": 2, "add9": 14, "9": 14, "add6": 9, "6": 9, "13": 21,
        "add4": 5, "11": 17, "#11": 18, "b9": 13, "#9": 15}
 DROP = {"no3": (3, 4), "sus": (3, 4), "sus4": (3, 4)}
@@ -115,7 +125,8 @@ def harmonies(s):
             tx = re.search(r'<kind[^>]*\btext="([^"]*)"', t)
             kind = kd.group(1).strip() if kd else "major"
             text = tx.group(1).strip() if tx else ""
-            label = NAMES[root] + (text.split("/")[0] if text else "")
+            label = NAMES[root] + (text.split("/")[0] if text
+                                   else KIND_SYM.get(kind, ""))
             if bass is not None and bass != root:
                 label += "/" + NAMES[bass]
             out.append((bar, root, bass, label, chord_tones(root, kind, text)))

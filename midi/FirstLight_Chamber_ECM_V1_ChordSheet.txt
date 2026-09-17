@@ -2,27 +2,27 @@ FirstLight_Chamber_ECM_V1   4/4   50 bpm   60 bars
 
 
   [SECTION A – RADIANT FIELD]
-  bar   1   E
-  bar   5   G
+  bar   1   E6
+  bar   5   G6
 
   [SECTION B – LYRICAL EMERGENCE]
-  bar   9   E
-  bar  13   A
-  bar  17   F
-  bar  21   D
+  bar   9   Em
+  bar  13   Am6
+  bar  17   F6
+  bar  21   Dm6
 
   [SECTION C – SUSPENSION]
-  bar  25   C
-  bar  29   G
+  bar  25   C6
+  bar  29   G6
   bar  33   G
 
   [SECTION D – DISSOLVED RETURN]
-  bar  37   Bb
-  bar  41   G
-  bar  45   G
-  bar  49   A
+  bar  37   Bb6
+  bar  41   Gm
+  bar  45   Gm6
+  bar  49   Am
 
   [SECTION E – FINAL LIGHT]
-  bar  52   A
-  bar  56   A
-  bar  60   F
+  bar  52   Am6
+  bar  56   Am
+  bar  60   F6

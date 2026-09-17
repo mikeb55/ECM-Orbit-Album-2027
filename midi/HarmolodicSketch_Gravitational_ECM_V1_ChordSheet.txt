@@ -3,21 +3,21 @@ HarmolodicSketch_Gravitational_ECM_V1   4/4   48 bpm   58 bars
 
   [SECTION A – AXIS ESTABLISHMENT]
   bar   1   G
-  bar   5   G
+  bar   5   Gmaj7
 
   [SECTION B – FIRST ROTATION]
   bar   9   G
-  bar  13   Eb
-  bar  17   B
-  bar  21   Gb
+  bar  13   Ebmaj7
+  bar  17   Bmaj7
+  bar  21   Gbmaj7
 
   [SECTION C – SECOND ROTATION]
   bar  23   Bb
-  bar  27   Bb
-  bar  31   F
-  bar  35   D
+  bar  27   Bbmaj7
+  bar  31   F6
+  bar  35   D6
   bar  39   D
-  bar  43   Eb
-  bar  47   A
-  bar  51   F
-  bar  55   D
+  bar  43   Ebmaj7
+  bar  47   A6
+  bar  51   F6
+  bar  55   D6

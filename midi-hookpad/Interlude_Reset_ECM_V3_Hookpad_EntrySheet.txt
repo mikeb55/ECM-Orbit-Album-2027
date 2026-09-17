@@ -1,0 +1,13 @@
+Interlude_Reset_ECM_V3
+set Hookpad to:   key D   3/4   48 bpm   25 bars
+(100% of the chord tones fall inside that scale - enter chords by letter name in the chord search, not by typing 1-7)
+
+  bar  written                type into Hookpad  what Hookpad drops
+--------------------------------------------------------------------------------------
+    1  Dsus2                  Dsus2              
+    5  Dsus4                  Dsus4              
+    9  Gsus2                  Gsus2              
+   13  Gmaj9                  Gmaj7              the 9th
+   17  G6                     G6                 
+   18  Em7                    Em7                
+   22  Dsus2                  Dsus2              

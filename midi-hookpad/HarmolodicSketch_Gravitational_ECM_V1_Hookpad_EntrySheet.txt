@@ -1,0 +1,21 @@
+HarmolodicSketch_Gravitational_ECM_V1
+set Hookpad to:   key D   4/4   48 bpm   58 bars
+(71% of the chord tones fall inside that scale - enter chords by letter name in the chord search, not by typing 1-7)
+
+  bar  written                type into Hookpad  what Hookpad drops
+--------------------------------------------------------------------------------------
+    1  G                      G                  
+    5  Gmaj7                  Gmaj7              
+    9  G                      G                  
+   13  Ebmaj7                 Ebmaj7             
+   17  Bmaj7                  Bmaj7              
+   21  Gbmaj7                 Gbmaj7             
+   23  Bb                     Bb                 
+   27  Bbmaj7                 Bbmaj7             
+   31  F6                     F6                 
+   35  D6                     D6                 
+   39  D                      D                  
+   43  Ebmaj7                 Ebmaj7             
+   47  A6                     A6                 
+   51  F6                     F6                 
+   55  D6                     D6                 

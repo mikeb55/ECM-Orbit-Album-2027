@@ -1,0 +1,15 @@
+NorthLight_Pivot_ECM_V1
+set Hookpad to:   key Abm   4/4   46 bpm   32 bars
+(94% of the chord tones fall inside that scale - enter chords by letter name in the chord search, not by typing 1-7)
+
+  bar  written                type into Hookpad  what Hookpad drops
+--------------------------------------------------------------------------------------
+    1  Gbmaj7                 Gbmaj7             
+    5  Gb6                    Gb6                
+    9  Gbmaj7                 Gbmaj7             
+   13  E6                     E6                 
+   17  E                      E                  
+   21  Emaj7                  Emaj7              
+   23  E                      E                  
+   27  Emaj7                  Emaj7              
+   31  E                      E                  

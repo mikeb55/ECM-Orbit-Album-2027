@@ -2,28 +2,28 @@ Mirror_Chamber_ECM_V1   4/4   52 bpm   60 bars
 
 
   [SECTION A – FIELD]
-  bar   1   C
-  bar   5   Ab
+  bar   1   Cm6
+  bar   5   Abmaj7
 
   [SECTION B – MIRROR COUNTERPOINT]
-  bar   9   Ab
-  bar  13   A
-  bar  17   G
+  bar   9   Abm6
+  bar  13   Amaj7
+  bar  17   Gmaj7
   bar  21   G
 
   [SECTION C – DESTABILISATION]
-  bar  25   Eb
-  bar  29   E
-  bar  33   E
+  bar  25   Ebmaj7
+  bar  29   Edim
+  bar  33   Edim7
   bar  37   Eb
 
   [SECTION D – DISSOLVED RETURN]
-  bar  39   C
+  bar  39   Cm6
   bar  43   C
-  bar  47   C
-  bar  51   C
+  bar  47   Cm6
+  bar  51   Cdim7
 
   [SECTION E – AFTERGLOW]
-  bar  52   C
-  bar  56   D
+  bar  52   Cm6
+  bar  56   Dm6
   bar  60   F

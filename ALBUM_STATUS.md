@@ -312,3 +312,41 @@ Distinct pitches across each whole piece:
 This corrects an earlier statement that the bass was the busiest voice. It has the most
 note *events*, but they are one pitch repeated. On a drummerless record the bass is a
 lead voice, so this needs writing too. Orbit is the only piece with a real bass line.
+
+### 2026-09-18 — Hookpad: chords cannot be imported, confirmed from the app itself
+
+Mike's own File menu (screenshot) shows the only MIDI route in is **"Import MIDI Melody —
+import monophonic MIDI melody from disk."** There is no chord import, and the chord staff
+prompt reads "Type 1-7 to add chords." Hooktheory's support page confirms MIDI is
+export-only, and their own reply to a user asks that they refund rather than support it:
+"Currently Hookpad does not support importing midi files directly into your Hookpad
+project." A 2024 forum question, "Is there a way to import midi chords?", has no answer.
+
+So no MIDI file in any format will carry chords into Hookpad. The chords must be typed.
+
+`tools/export_hookpad.py` therefore writes, per piece:
+  - `_Hookpad_EntrySheet.txt` — bar, written chord, the symbol Hookpad's chord search
+    will accept, and exactly what the substitution loses.
+  - `_Hookpad.mid` — the same bed rebuilt in Hookpad's own export shape (type 1,
+    TPB 1024, track 0 metas with key_signature, "H: Piano" triads re-articulated per
+    beat at velocity 102/51/70/51 voiced inside A3-A4, "B: Piano" root inside F2-E3 on
+    beats 1, 2.5, 3, 4.5). Verified structurally identical to the reference export.
+    Useful in a DAW; it will still not import into Hookpad.
+
+Best-fit key per piece, chosen by which scale covers the most chord tones — a frame for
+Hookpad's note grid, not a claim about the music:
+
+| Piece | Key | Chord tones inside the scale | Chords Hookpad must alter |
+|---|---|---:|---:|
+| Quiet Field | D | 100% | 1 |
+| Lyrical Expansion | Cm | 95% | 10 |
+| North Light | Abm | 94% | 0 |
+| First Light | C | 88% | 0 |
+| The Mirror | Gm | 76% | 0 |
+| Orbit | Fm | 73% | 7 |
+| Harmolodic Sketch | D | 71% | 0 |
+
+**Bug fixed in `export_chord_midi.py`:** chord labels were built only from the `text`
+attribute, so any chord written without one lost its quality — The Mirror's `Cm6 Abmaj7
+Abm6 Amaj7` was printing as `C Ab Ab A`. Labels now fall back to a `<kind>` symbol map.
+The chord sheets in `midi/` have been regenerated.

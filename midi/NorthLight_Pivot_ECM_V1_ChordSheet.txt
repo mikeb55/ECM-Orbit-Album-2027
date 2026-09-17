@@ -2,16 +2,16 @@ NorthLight_Pivot_ECM_V1   4/4   46 bpm   32 bars
 
 
   [SECTION A – AIR]
-  bar   1   Gb
-  bar   5   Gb
+  bar   1   Gbmaj7
+  bar   5   Gb6
 
   [SECTION B – LIGHT SHIFT]
-  bar   9   Gb
-  bar  13   E
+  bar   9   Gbmaj7
+  bar  13   E6
   bar  17   E
-  bar  21   E
+  bar  21   Emaj7
 
   [SECTION C – DISSOLVE]
   bar  23   E
-  bar  27   E
+  bar  27   Emaj7
   bar  31   E
